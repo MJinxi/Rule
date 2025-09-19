@@ -7,6 +7,7 @@
 ✅ 25.04.22 新增：52PT
 📄 25.05.01 转移：文档项目
 ✅ 25.05.23 新增：友人
+✅ 25.09.19 新增：ptskit,龟站
 -->    
 
 
@@ -760,6 +761,10 @@ DOMAIN-SUFFIX,hdbao.cc
 DOMAIN-SUFFIX,tracker.ptvicomo.net
 DOMAIN-SUFFIX,52pt.site
 DOMAIN-SUFFIX,tracker.tokyopt.xyz
+DOMAIN-SUFFIX,ptskit.org
+
+DOMAIN-SUFFIX,kamept.com
+DOMAIN-SUFFIX,tracker.kame.gay
 
 # 自定义特殊直连规则
 DOMAIN-SUFFIX,106071.xyz
