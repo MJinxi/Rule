@@ -22,13 +22,18 @@ DOMAIN,hhanclub.top
 DOMAIN,lemonhd.club
 DOMAIN,www.yemapt.org
 
+#tmdb
+- DOMAIN,image.tmdb.org
+
 # EA Desktop 云同步
 #DOMAIN-SUFFIX,cloudsync-prod.s3.us-east-1.amazonaws.com
+
 # GooglePlay 相关
 DOMAIN-SUFFIX,xn--ngstr-lra8j.com
 DOMAIN-SUFFIX,services.googleapis.cn
 # PS5 STUN
 DOMAIN-SUFFIX,stun.playstation.net
+
 # Docker
 DOMAIN,d1q6f0aelx0por.cloudfront.net
 DOMAIN,d2wy8f7a9ursnm.cloudfront.net
@@ -37,11 +42,14 @@ DOMAIN-SUFFIX,compose-spec.io
 DOMAIN-SUFFIX,docker.com
 DOMAIN-SUFFIX,docker.io
 DOMAIN-SUFFIX,dockerhub.com
+
 # mihomo
 DOMAIN-SUFFIX,metacubex.one
+
 # Google translate
 DOMAIN-SUFFIX,translate.google.com
 DOMAIN-SUFFIX,translate.googleapis.com
+
 # 自定义常用
 DOMAIN-SUFFIX,bajie.pw
 DOMAIN,cn.v2ex.com
