@@ -7,6 +7,7 @@
 ❌ 25.04.22 删除：52PT
 🔧 25.04.24 修复：友人Emby域名
 📄 25.05.01 转移：文档项目
+📄 25.10.03 增加：hdarea,ptzone,carpt
 -->    
 
 
@@ -21,6 +22,10 @@ DOMAIN,www.qingwapt.com
 DOMAIN,hhanclub.top
 DOMAIN,lemonhd.club
 DOMAIN,www.yemapt.org
+DOMAIN,hdarea.club
+DOMAIN,ptzone.xyz
+DOMAIN,carpt.net
+
 
 #tmdb
 - DOMAIN,image.tmdb.org

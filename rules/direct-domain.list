@@ -716,7 +716,7 @@ DOMAIN-SUFFIX,pt.soulvoice.club
 DOMAIN-SUFFIX,share.ilolicon.com
 DOMAIN-SUFFIX,skyeysnow.com
 DOMAIN-SUFFIX,zhuque.in
-DOMAIN-SUFFIX,hdarea.club
+# DOMAIN-SUFFIX,hdarea.club
 DOMAIN-SUFFIX,pt.cdfile.org
 DOMAIN-SUFFIX,hdkyl.in
 DOMAIN-SUFFIX,tosky.club
@@ -748,9 +748,9 @@ DOMAIN-SUFFIX,discfan.xyz
 DOMAIN-SUFFIX,wukongwendao.top
 DOMAIN-SUFFIX,www.joyhd.net
 DOMAIN-SUFFIX,crabpt.vip
-DOMAIN-SUFFIX,ptzone.xyz
+# DOMAIN-SUFFIX,ptzone.xyz
 DOMAIN-SUFFIX,raingfh.top
-DOMAIN-SUFFIX,carpt.net
+# DOMAIN-SUFFIX,carpt.net
 DOMAIN-SUFFIX,hdba.cc
 DOMAIN-SUFFIX,bilibili.download
 DOMAIN-SUFFIX,cspt.top
