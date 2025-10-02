@@ -30,8 +30,8 @@ DOMAIN-SUFFIX,ptchdbits.co
 DOMAIN-SUFFIX,hdvideo.one
 DOMAIN-SUFFIX,piggo.me
 DOMAIN-SUFFIX,zhuque.in
-DOMAIN-SUFFIX,carpt.net
-DOMAIN-SUFFIX,hdarea.club
+# DOMAIN-SUFFIX,carpt.net
+# DOMAIN-SUFFIX,hdarea.club
 DOMAIN-SUFFIX,cyanbug.net
 DOMAIN-SUFFIX,fj.chddiy.xyz
 DOMAIN-SUFFIX,lemonhd.club
@@ -72,7 +72,7 @@ DOMAIN-SUFFIX,discfan.xyz
 DOMAIN-SUFFIX,wukongwendao.top
 DOMAIN-SUFFIX,www.joyhd.net
 DOMAIN-SUFFIX,crabpt.vip
-DOMAIN-SUFFIX,ptzone.xyz
+# DOMAIN-SUFFIX,ptzone.xyz
 DOMAIN-SUFFIX,raingfh.top
 DOMAIN-SUFFIX,carpt.net
 DOMAIN-SUFFIX,hdba.cc
