@@ -1,0 +1,1618 @@
+# NAME: Direct-Domain
+# AUTHOR: MJinxi
+# REPO: https://github.com/MJinxi/Rule
+# 强制直连列表，来自谨兮个人收集
+
+####### 一、网盘/云存储类 #########
+
+# 1. 阿里系网盘
+DOMAIN-SUFFIX,aliyundrive.com # 阿里云盘主域名
+DOMAIN-SUFFIX,aliyundrive.net # 阿里云盘相关服务域名
+DOMAIN-SUFFIX,aliyundrive.cn # 阿里云盘国内备用域名（新增）
+DOMAIN-SUFFIX,baidupan.com # 百度网盘第三方相关域名
+DOMAIN-SUFFIX,baidupcs.com # 百度网盘PCS服务域名
+DOMAIN-SUFFIX,pan.baidu.com # 百度网盘主域名（核心访问域名，新增）
+DOMAIN-SUFFIX,bdpan.cn # 百度网盘短链接域名（新增）
+DOMAIN-SUFFIX,baiduyun.com # 百度云（含网盘）主域名（新增）
+
+# 2. 腾讯系云存储
+DOMAIN-SUFFIX,weiyun.com # 腾讯微云主域名
+DOMAIN-SUFFIX,weiyunimg.com # 腾讯微云图片资源域名（新增）
+DOMAIN-SUFFIX,qcloud.com # 腾讯云存储相关域名（含个人云服务）
+DOMAIN-SUFFIX,pan.qq.com # 腾讯微云网页版主域名（新增）
+
+# 3. 115云存储
+DOMAIN-SUFFIX,115.com # 115云存储主域名
+DOMAIN-SUFFIX,115img.com # 115云存储图片资源域名（新增）
+DOMAIN-SUFFIX,115cdn.com # 115云存储CDN域名（新增）
+
+# 4. 蓝奏云
+DOMAIN-SUFFIX,lanzov.com # 蓝奏云文件分享平台相关域名
+DOMAIN-SUFFIX,lanzou.com # 蓝奏云文件分享主域名
+DOMAIN-SUFFIX,lanzoui.com # 蓝奏云备用域名
+DOMAIN-SUFFIX,lanzoux.com # 蓝奏云备用域名
+DOMAIN-SUFFIX,lanzouj.com # 蓝奏云备用域名（新增）
+
+# 5. 坚果云
+DOMAIN-SUFFIX,jianguoyun.com # 坚果云存储主域名
+DOMAIN-SUFFIX,jianguoyun.net # 坚果云备用域名（新增）
+DOMAIN-SUFFIX,jianguocdn.com # 坚果云CDN加速域名（新增）
+
+# 6. 华为云盘（新增分类）
+DOMAIN-SUFFIX,dbank.com # 华为云盘主域名（新增）
+DOMAIN-SUFFIX,dbankcdn.com # 华为云盘CDN域名（新增）
+DOMAIN-SUFFIX,hicloud.com # 华为云服务（含云盘）主域名（新增）
+
+# 7. 中国移动云盘（新增分类）
+DOMAIN-SUFFIX,139.com # 中国移动云盘（原139邮箱云盘）主域名（新增）
+DOMAIN-SUFFIX,139pan.com # 中国移动云盘独立域名（新增）
+
+# 8. 永硕E盘
+DOMAIN-SUFFIX,ys168.com # 永硕E盘主域名
+DOMAIN-SUFFIX,ys168.net # 永硕E盘备用域名（新增）
+
+# 9. 七牛云存储（开发者常用）
+DOMAIN-SUFFIX,qbox.me # 七牛云存储域名
+DOMAIN-SUFFIX,qiniu.com # 七牛云主域名
+DOMAIN-SUFFIX,qiniucdn.com # 七牛云CDN域名
+DOMAIN-SUFFIX,qiniudn.com # 七牛云存储域名
+DOMAIN-SUFFIX,clouddn.com # 七牛云存储早期域名
+
+# 10. 360云盘（企业版相关，新增分类）
+DOMAIN-SUFFIX,yunpan.360.cn # 360云盘企业版域名（新增）
+DOMAIN-SUFFIX,360yun.com # 360云服务相关域名（新增）
+
+# 11. 迅雷云盘（新增分类）
+DOMAIN-SUFFIX,xunlei.com # 迅雷主域名（含云盘服务）
+DOMAIN-SUFFIX,xunleiyun.com # 迅雷云盘独立域名（新增）
+DOMAIN-SUFFIX,xlpan.com # 迅雷云盘备用域名（新增）
+
+####### 二、云服务/服务器类（含CDN、云厂商） #########
+
+# 1. 阿里云系
+DOMAIN-SUFFIX,alibabacloud.com # 阿里云服务主域名
+DOMAIN-SUFFIX,aliyun.com # 阿里云主域名
+DOMAIN-SUFFIX,aliyuncdn.com # 阿里云CDN服务域名
+DOMAIN-SUFFIX,aliyuncs.com # 阿里云API服务域名
+DOMAIN-SUFFIX,alicdn.com # 阿里CDN加速服务域名
+DOMAIN-SUFFIX,alicloudccp.com # 阿里云控制中心相关域名
+DOMAIN-SUFFIX,aliyun-inc.com # 阿里云内部服务相关域名（新增）
+DOMAIN-SUFFIX,alibabacloudcdn.com # 阿里云CDN加速域名（新增）
+
+# 2. 腾讯云系
+DOMAIN-SUFFIX,myqcloud.com # 腾讯云相关服务域名
+DOMAIN-SUFFIX,qcloud.com # 腾讯云主域名
+DOMAIN-SUFFIX,qcloudcdn.com # 腾讯云CDN域名
+DOMAIN-SUFFIX,tencent-cloud.net # 腾讯云服务域名
+DOMAIN-SUFFIX,smtcdns.com # 腾讯CDN域名
+DOMAIN-SUFFIX,smtcdns.net # 腾讯CDN备用域名（与B站共享）
+DOMAIN-SUFFIX,tencentyun.com # 腾讯云基础服务域名（新增）
+DOMAIN-SUFFIX,cdn.myqcloud.com # 腾讯云CDN管理域名（新增）
+
+# 3. 百度智能云
+DOMAIN-SUFFIX,bcebos.com # 百度智能云对象存储域名
+DOMAIN-SUFFIX,yunjiasu-cdn.net # 百度云加速CDN域名
+DOMAIN-SUFFIX,baidubce.com # 百度智能云主域名（新增）
+DOMAIN-SUFFIX,bcesdk.com # 百度云SDK相关域名（新增）
+
+# 4. 华为云系
+DOMAIN-SUFFIX,huaweicloud.com # 华为云主域名
+DOMAIN-SUFFIX,hc-cdn.com # 华为云CDN域名
+DOMAIN-SUFFIX,hicloud.com # 华为云服务主域名
+DOMAIN-SUFFIX,huaweicloudcdn.com # 华为云CDN加速域名（新增）
+DOMAIN-SUFFIX,obs.cn-north-1.myhuaweicloud.com # 华为云对象存储示例域名（通用规则覆盖，新增）
+
+# 5. 金山云
+DOMAIN-SUFFIX,ksyun.com # 金山云主域名
+DOMAIN-SUFFIX,ksyungslb.com # 金山云负载均衡域名
+DOMAIN-SUFFIX,ksyuncdn.com # 金山云CDN加速域名（新增）
+DOMAIN-SUFFIX,ks3-cn-beijing.ksyun.com # 金山云对象存储示例域名（新增）
+
+# 6. 京东云
+DOMAIN-SUFFIX,jcloudcs.com # 京东云存储域名
+DOMAIN-SUFFIX,jdcloud.com # 京东云主域名
+DOMAIN-SUFFIX,jdcloudcdn.com # 京东云CDN域名（新增）
+DOMAIN-SUFFIX,oss.jdcloud.com # 京东云对象存储域名（新增）
+
+# 7. 又拍云
+DOMAIN-SUFFIX,upaiyun.com # 又拍云CDN服务域名
+DOMAIN-SUFFIX,upcdn.net # 又拍云CDN加速域名（新增）
+DOMAIN-SUFFIX,upyun.com # 又拍云主域名（简写，新增）
+
+# 8. 蓝汛CDN
+DOMAIN-SUFFIX,chinacache.net # 蓝汛CDN域名
+DOMAIN-SUFFIX,lancdns.com # 蓝汛CDN相关域名
+DOMAIN-SUFFIX,lxdns.com # 蓝汛DNS域名
+DOMAIN-SUFFIX,chinacache.com # 蓝汛主域名（新增）
+
+# 9. 加速乐CDN（百度云旗下）
+DOMAIN-SUFFIX,jiasule.com # 加速乐CDN
+DOMAIN-SUFFIX,jiasulecdn.com # 加速乐CDN资源域名（新增）
+
+# 10. 国际云厂商（国内可用节点补充）
+DOMAIN-SUFFIX,oracle.com # 甲骨文公司主域名（云服务相关）
+DOMAIN-SUFFIX,aws.amazon.com.cn # 亚马逊AWS中国区主域名（新增）
+DOMAIN-SUFFIX,azure.cn # 微软Azure中国区主域名（新增）
+DOMAIN-SUFFIX,googlecloud.cn # 谷歌云中国区主域名（新增）
+
+# 11. 公共CDN资源
+DOMAIN-SUFFIX,baomitu.com # 百度静态资源CDN（cdnjs国内镜像）
+DOMAIN-SUFFIX,bootcss.com # Bootstrap中文网CDN
+DOMAIN-SUFFIX,staticfile.org # 静态资源公共CDN
+DOMAIN-SUFFIX,cdnjs.net # cdnjs国内镜像（常用JS库，新增）
+DOMAIN-SUFFIX,unpkg.com # 前端资源CDN（国内可直连，新增）
+DOMAIN-SUFFIX,jsdelivr.net # 开源资源CDN（国内节点，新增）
+# DOMAIN-SUFFIX,ajax.aspnetcdn.com # 微软ASP.NET CDN（注释未启用）
+# DOMAIN-SUFFIX,ajax.cloudflare.com # Cloudflare AJAX CDN（注释未启用）
+# DOMAIN-SUFFIX,cdnjs.cloudflare.com # Cloudflare CDN（注释未启用）
+# DOMAIN-SUFFIX,code.jquery.com # jQuery官方CDN（注释未启用）
+
+# 12. 网易云信（企业云服务，新增分类）
+DOMAIN-SUFFIX,netease.im # 网易云信主域名（新增）
+DOMAIN-SUFFIX,neteasecloud.com # 网易云企业服务域名（新增）
+
+# 13. 七牛云补充（开发者常用）
+DOMAIN-SUFFIX,qiniu.io # 七牛云海外节点域名（新增）
+DOMAIN-SUFFIX,qnssl.com # 七牛云HTTPS证书相关域名（新增）
+
+# 14. 腾讯云COS（对象存储，补充）
+DOMAIN-SUFFIX,cos.ap-beijing.myqcloud.com # 腾讯云对象存储示例域名（新增）
+DOMAIN-SUFFIX,cos-website.ap-chengdu.myqcloud.com # 腾讯云静态网站托管域名（新增）
+
+
+####### 三、视频平台类 #########
+
+# 1. Bilibili
+DOMAIN-SUFFIX,acg.tv # B站ACG相关服务域名
+DOMAIN-SUFFIX,acgvideo.com # B站视频存储域名
+DOMAIN-SUFFIX,b23.tv # B站短链接服务域名
+DOMAIN-SUFFIX,bigfun.cn # B站旗下BigFun社区域名
+DOMAIN-SUFFIX,bigfunapp.cn # BigFun社区APP相关域名
+DOMAIN-SUFFIX,biliapi.com # B站API服务域名
+DOMAIN-SUFFIX,biliapi.net # B站API服务备用域名
+DOMAIN-SUFFIX,bilibili.com # B站主域名
+DOMAIN-SUFFIX,bilibili.co # B站备用主域名
+DOMAIN-SUFFIX,biliintl.co # B站国际版相关域名
+DOMAIN-SUFFIX,biligame.com # B站游戏平台域名
+DOMAIN-SUFFIX,biligame.net # B站游戏服务域名
+DOMAIN-SUFFIX,bilivideo.com # B站视频服务域名
+DOMAIN-SUFFIX,bilivideo.cn # B站视频服务国内域名
+DOMAIN-SUFFIX,hdslb.com # B站视频存储及加速域名
+DOMAIN-SUFFIX,im9.com # B站相关IM服务域名
+DOMAIN-SUFFIX,smtcdns.net # B站CDN域名（与腾讯共享）
+DOMAIN-SUFFIX,bilibili.tv # B站备用主域名（新增）
+DOMAIN-SUFFIX,biliimg.com # B站图片资源域名（新增）
+
+# 2. 爱奇艺
+DOMAIN-SUFFIX,71.am # 爱奇艺相关加速域名
+DOMAIN-SUFFIX,71edge.com # 爱奇艺边缘计算加速域名
+DOMAIN-SUFFIX,iqiyi.com # 爱奇艺主域名
+DOMAIN-SUFFIX,iqiyipic.com # 爱奇艺图片资源域名
+DOMAIN-SUFFIX,ppsimg.com # PPS视频图片域名（已并入爱奇艺）
+DOMAIN-SUFFIX,qiyi.com # 爱奇艺备用主域名
+DOMAIN-SUFFIX,qiyipic.com # 爱奇艺备用图片域名
+DOMAIN-SUFFIX,qy.net # 爱奇艺相关服务域名
+DOMAIN-SUFFIX,iqiyi.cn # 爱奇艺国内备用域名（新增）
+DOMAIN-SUFFIX,iqiyicdn.com # 爱奇艺CDN加速域名（新增）
+DOMAIN-SUFFIX,pps.tv # PPS视频备用域名（已并入爱奇艺，新增）
+
+# 3. 字节跳动系视频
+DOMAIN-SUFFIX,ixigua.com # 西瓜视频主域名
+DOMAIN-SUFFIX,douyin.com # 抖音主域名
+DOMAIN-SUFFIX,douyincdn.com # 抖音CDN加速域名
+DOMAIN-SUFFIX,douyinpic.com # 抖音图片存储域名
+DOMAIN-SUFFIX,douyinstatic.com # 抖音静态资源域名
+DOMAIN-SUFFIX,huoshan.com # 火山小视频主域名
+DOMAIN-SUFFIX,huoshanzhibo.com # 火山直播服务域名
+DOMAIN-SUFFIX,bdxiguaimg.com # 字节跳动西瓜视频图片域名
+DOMAIN-SUFFIX,bdxiguastatic.com # 西瓜视频静态资源域名
+DOMAIN-SUFFIX,byted-static.com # 字节跳动静态资源域名
+DOMAIN-SUFFIX,bytedance.com # 字节跳动集团主域名
+DOMAIN-SUFFIX,bytedance.net # 字节跳动集团备用域名
+DOMAIN-SUFFIX,bytedns.net # 字节跳动DNS服务域名
+DOMAIN-SUFFIX,bytednsdoc.com # 字节跳动DNS文档域名
+DOMAIN-SUFFIX,bytegoofy.com # 字节跳动相关服务域名
+DOMAIN-SUFFIX,byteimg.com # 字节跳动图片CDN域名
+DOMAIN-SUFFIX,bytescm.com # 字节跳动内容安全相关域名
+DOMAIN-SUFFIX,bytetos.com # 字节跳动对象存储域名
+DOMAIN-SUFFIX,bytexservice.com # 字节跳动服务相关域名
+DOMAIN-SUFFIX,feelgood.cn # 字节跳动相关服务域名
+DOMAIN-SUFFIX,feiliao.com # 飞聊APP相关域名（已停运，保留规则）
+DOMAIN-SUFFIX,ibytedapm.com # 字节跳动APM监控域名
+DOMAIN-SUFFIX,iesdouyin.com # 抖音极速版相关域名
+DOMAIN-SUFFIX,kspkg.com # 字节跳动应用包分发域名
+DOMAIN-SUFFIX,pstatp.com # 字节跳动数据统计域名
+DOMAIN-SUFFIX,snssdk.com # 字节跳动社交SDK相关域名
+DOMAIN-SUFFIX,toutiao.com # 今日头条主域名
+DOMAIN-SUFFIX,toutiao13.com # 今日头条备用域名
+DOMAIN-SUFFIX,toutiaoapi.com # 今日头条API服务域名
+DOMAIN-SUFFIX,toutiaocdn.com # 今日头条CDN域名
+DOMAIN-SUFFIX,toutiaocdn.net # 今日头条CDN备用域名
+DOMAIN-SUFFIX,toutiaocloud.com # 今日头条云服务域名
+DOMAIN-SUFFIX,toutiaohao.com # 头条号相关域名
+DOMAIN-SUFFIX,toutiaohao.net # 头条号备用域名
+DOMAIN-SUFFIX,toutiaoimg.com # 今日头条图片资源域名
+DOMAIN-SUFFIX,toutiaopage.com # 今日头条页面服务域名
+DOMAIN-SUFFIX,wukong.com # 悟空问答相关域名（已停运，保留规则）
+DOMAIN-SUFFIX,zijieapi.com # 字节跳动子节API域名
+DOMAIN-SUFFIX,zijieimg.com # 子节图片资源域名
+DOMAIN-SUFFIX,zjbyte.com # 字节跳动浙江公司相关域名
+DOMAIN-SUFFIX,zjcdn.com # 字节跳动浙江CDN域名
+DOMAIN-SUFFIX,tracker.tokyopt.xyz # 字节跳动相关Tracker域名
+DOMAIN-SUFFIX,douyin.com.cn # 抖音国内备用域名（新增）
+DOMAIN-SUFFIX,ixigua.cn # 西瓜视频国内备用域名（新增）
+DOMAIN-SUFFIX,huoshan.cn # 火山小视频国内备用域名（新增）
+
+# 4. 阿里系视频
+DOMAIN-SUFFIX,youku.com # 优酷视频平台主域名
+DOMAIN-SUFFIX,ykimg.com # 优酷视频图片存储域名
+DOMAIN-SUFFIX,tudou.com # 土豆视频域名（已并入阿里）
+DOMAIN-SUFFIX,soku.com # 搜酷视频搜索域名
+DOMAIN-SUFFIX,youku.cn # 优酷国内备用域名（新增）
+DOMAIN-SUFFIX,ykcdn.com # 优酷CDN加速域名（新增）
+DOMAIN-SUFFIX,tudoucdn.com # 土豆视频CDN域名（新增）
+
+# 5. 腾讯系视频
+DOMAIN-SUFFIX,qq.com # 腾讯视频相关域名（含QQ视频）
+DOMAIN-SUFFIX,v.qq.com # 腾讯视频主域名（新增）
+DOMAIN-SUFFIX,tv.qq.com # 腾讯视频备用域名（新增）
+DOMAIN-SUFFIX,qqvideo.com # 腾讯视频资源域名（新增）
+DOMAIN-SUFFIX,qqvideo.tc.qq.com # 腾讯视频存储域名（新增）
+DOMAIN-SUFFIX,tenvideo.com # 腾讯视频相关服务域名（新增）
+
+# 6. 芒果TV
+DOMAIN-SUFFIX,hitv.com # 芒果TV相关服务域名
+DOMAIN-SUFFIX,hunantv.com # 湖南卫视相关域名
+DOMAIN-SUFFIX,mgtv.com # 芒果TV主域名
+DOMAIN-SUFFIX,mgtv.cn # 芒果TV国内备用域名（新增）
+DOMAIN-SUFFIX,mgtvcdn.com # 芒果TV CDN加速域名（新增）
+
+# 7. 乐视视频
+DOMAIN-SUFFIX,le.com # 乐视主域名
+DOMAIN-SUFFIX,lecloud.com # 乐视云服务域名
+DOMAIN-SUFFIX,letv.com # 乐视视频主域名
+DOMAIN-SUFFIX,letvcloud.com # 乐视云存储域名
+DOMAIN-SUFFIX,letvimg.com # 乐视图片资源域名
+DOMAIN-SUFFIX,letvlive.com # 乐视直播服务域名
+DOMAIN-SUFFIX,letvstore.com # 乐视应用商店域名（已停运，保留规则）
+
+# 8. PPTV/PPLive
+DOMAIN-SUFFIX,pplive.com # PPLive直播域名
+DOMAIN-SUFFIX,pptv.com # PPTV视频主域名
+DOMAIN-SUFFIX,pptvcdn.com # PPTV CDN加速域名（新增）
+
+# 9. 央视系视频
+DOMAIN-SUFFIX,cctv.com # CCTV主域名
+DOMAIN-SUFFIX,cctvpic.com # CCTV图片资源域名
+DOMAIN-SUFFIX,livechina.com # CCTV直播相关域名
+DOMAIN-SUFFIX,cnlive.com # 中国网络电视台域名（新增）
+DOMAIN-SUFFIX,cctv.cn # CCTV国内备用域名（新增）
+DOMAIN-SUFFIX,iyouku.com # 央视网与优酷合作域名（新增）
+
+# 10. 咪咕视频
+DOMAIN-SUFFIX,miguvideo.com # 咪咕视频主域名
+DOMAIN-SUFFIX,migucloud.com # 咪咕云服务域名
+DOMAIN-SUFFIX,miguvideo.cn # 咪咕视频国内备用域名（新增）
+DOMAIN-SUFFIX,migucdn.com # 咪咕视频CDN加速域名（新增）
+
+# 11. 快手（新增分类）
+DOMAIN-SUFFIX,kuaishou.com # 快手主域名（新增）
+DOMAIN-SUFFIX,kuaishou.cn # 快手国内备用域名（新增）
+DOMAIN-SUFFIX,kwai.com # 快手国际版相关域名（新增）
+DOMAIN-SUFFIX,kwaicdn.com # 快手CDN加速域名（新增）
+
+# 12. 影视资源站点
+DOMAIN-SUFFIX,8686c.com # 影视相关站点域名
+DOMAIN-SUFFIX,dytt8.net # 电影天堂影视下载域名
+DOMAIN-SUFFIX,dilidili.wang # 嘀哩嘀哩动漫域名
+DOMAIN-SUFFIX,ewqcxz.com # 影视相关站点域名
+DOMAIN-SUFFIX,fantasy.tv # 影视相关站点域名
+DOMAIN-SUFFIX,ghpym.com # 影视相关站点域名
+DOMAIN-SUFFIX,gwdang.com # 影视相关站点域名
+DOMAIN-SUFFIX,letitfly.me # 影视相关站点域名
+DOMAIN-SUFFIX,myunlu.com # 影视相关站点域名
+DOMAIN-SUFFIX,ourdvs.com # 影视相关站点域名
+DOMAIN-SUFFIX,ttmeiju.com # 天天美剧域名
+DOMAIN-SUFFIX,tmiaoo.com # 影视相关站点域名
+DOMAIN-SUFFIX,xdrig.com # 影视相关站点域名
+DOMAIN-SUFFIX,zhangzishi.cc # 影视相关站点域名
+DOMAIN-SUFFIX,zhuihd.com # 追影HD影视域名
+DOMAIN-SUFFIX,bilibilihd.com # 嘀哩嘀哩备用域名（新增）
+DOMAIN-SUFFIX,meijutt.tv # 美剧天堂域名（新增）
+
+# 13. 直播平台
+DOMAIN-SUFFIX,huya.com # 虎牙直播主域名
+DOMAIN-SUFFIX,huajiao.com # 花椒直播域名
+DOMAIN-SUFFIX,quanmin.tv # 全民直播域名（已停运，保留规则）
+DOMAIN-SUFFIX,zhanqi.tv # 战旗直播域名（已停运，保留规则）
+DOMAIN-SUFFIX,yy.com # YY直播主域名
+DOMAIN-SUFFIX,yystatic.com # YY直播静态资源域名
+DOMAIN-SUFFIX,douyu.com # 斗鱼直播主域名（新增）
+DOMAIN-SUFFIX,douyucdn.cn # 斗鱼直播CDN域名（新增）
+DOMAIN-SUFFIX,cc.163.com # 网易CC直播主域名（新增）
+DOMAIN-SUFFIX,live.qq.com # 腾讯直播主域名（新增）
+
+# 14. AcFun（弹幕视频）
+DOMAIN-SUFFIX,acfun.tv # AcFun弹幕视频网域名
+DOMAIN-SUFFIX,aixifan.com # AcFun备用域名
+DOMAIN-SUFFIX,acfun.cn # AcFun国内备用域名（新增）
+
+# 15. 56视频（已停运）
+DOMAIN-SUFFIX,56.com # 56视频域名（已停运，保留规则）
+
+# 16. 保利威视频云
+DOMAIN-SUFFIX,polyv.net # 保利威视频云域名
+DOMAIN-SUFFIX,videocc.net # 保利威视频云相关域名
+
+# 17. 搜狐视频（新增分类）
+DOMAIN-SUFFIX,sohu.tv # 搜狐视频主域名（新增）
+DOMAIN-SUFFIX,sohuvideo.com # 搜狐视频资源域名（新增）
+DOMAIN-SUFFIX,sohuvod.com # 搜狐视频点播域名（新增）
+
+
+
+####### 四、电商/购物平台类 #########
+
+# 1. 阿里系电商
+DOMAIN-SUFFIX,taobao.com # 淘宝电商平台主域名
+DOMAIN-SUFFIX,taobaocdn.com # 淘宝CDN加速域名
+DOMAIN-SUFFIX,tbcache.com # 淘宝缓存服务域名
+DOMAIN-SUFFIX,tbcdn.com # 淘宝静态资源CDN域名
+DOMAIN-SUFFIX,tmall.com # 天猫电商平台主域名
+DOMAIN-SUFFIX,tmall.hk # 天猫国际（香港）域名
+DOMAIN-SUFFIX,1688.com # 1688批发采购平台域名
+DOMAIN-SUFFIX,aliexpress.com # 速卖通跨境电商平台域名
+DOMAIN-SUFFIX,kaola.com # 网易考拉海购域名（已并入阿里）
+DOMAIN-SUFFIX,taobao.cn # 淘宝国内备用域名（新增）
+DOMAIN-SUFFIX,tmall.com.cn # 天猫国内备用域名（新增）
+DOMAIN-SUFFIX,alimama.com # 阿里妈妈（淘宝联盟）域名（新增）
+DOMAIN-SUFFIX,taobaocdn.net # 淘宝CDN备用域名（新增）
+DOMAIN-SUFFIX,etao.com # 一淘网（阿里旗下导购）域名（新增）
+
+# 2. 京东系电商
+DOMAIN-SUFFIX,jd.com # 京东主域名
+DOMAIN-SUFFIX,jd.hk # 京东香港站域名
+DOMAIN-SUFFIX,360buy.com # 京东早期主域名（现备用）
+DOMAIN-SUFFIX,360buyimg.com # 京东图片资源域名
+DOMAIN-SUFFIX,jdpay.com # 京东支付相关域名
+DOMAIN-SUFFIX,paipai.com # 拍拍网域名（已并入京东）
+DOMAIN-SUFFIX,yhd.com # 一号店电商域名（已并入京东）
+DOMAIN-SUFFIX,yihaodianimg.com # 一号店图片资源域名
+DOMAIN-SUFFIX,jd.cn # 京东国内备用域名（新增）
+DOMAIN-SUFFIX,jdimg.com # 京东图片CDN域名（新增）
+DOMAIN-SUFFIX,jdcdn.com # 京东CDN加速域名（新增）
+DOMAIN-SUFFIX,jdmall.com # 京东商城备用域名（新增）
+DOMAIN-SUFFIX,jdhealth.com # 京东健康域名（新增）
+
+# 3. 拼多多
+DOMAIN-SUFFIX,pinduoduo.com # 拼多多主域名
+DOMAIN-SUFFIX,yangkeduo.com # 拼多多旗下多多买菜相关域名
+DOMAIN-SUFFIX,pinduoduo.cn # 拼多多国内备用域名（新增）
+DOMAIN-SUFFIX,duoduocdn.com # 拼多多CDN加速域名（新增）
+DOMAIN-SUFFIX,duoduomall.com # 多多商城相关域名（新增）
+
+# 4. 唯品会
+DOMAIN-SUFFIX,vip.com # 唯品会主域名
+DOMAIN-SUFFIX,appsimg.com # 唯品会图片资源域名
+DOMAIN-SUFFIX,appvipshop.com # 唯品会APP相关域名
+DOMAIN-SUFFIX,vipstatic.com # 唯品会静态资源域名
+DOMAIN-SUFFIX,vip.cn # 唯品会国内备用域名（新增）
+DOMAIN-SUFFIX,vipcdn.com # 唯品会CDN加速域名（新增）
+
+# 5. 苏宁系电商
+DOMAIN-SUFFIX,suning.com # 苏宁易购主域名
+DOMAIN-SUFFIX,snwx.com # 苏宁文学相关域名
+DOMAIN-SUFFIX,suning.cn # 苏宁易购国内备用域名（新增）
+DOMAIN-SUFFIX,suningcdn.com # 苏宁CDN加速域名（新增）
+DOMAIN-SUFFIX,suningmall.com # 苏宁商城域名（新增）
+DOMAIN-SUFFIX,redbaby.com # 红孩子（苏宁旗下母婴）域名（新增）
+
+# 6. 蘑菇街/美丽说
+DOMAIN-SUFFIX,mogu.com # 蘑菇街电商主域名
+DOMAIN-SUFFIX,mogucdn.com # 蘑菇街CDN域名
+DOMAIN-SUFFIX,mogujie.com # 蘑菇街电商域名
+DOMAIN-SUFFIX,meilishuo.com # 美丽说电商域名（已并入蘑菇街）
+DOMAIN-SUFFIX,mogu.cn # 蘑菇街国内备用域名（新增）
+
+# 7. 聚美优品
+DOMAIN-SUFFIX,jumei.com # 聚美优品电商域名
+DOMAIN-SUFFIX,jmstatic.com # 聚美优品静态资源域名
+DOMAIN-SUFFIX,jumei.cn # 聚美优品备用域名（新增）
+
+# 8. 当当网
+DOMAIN-SUFFIX,dangdang.com # 当当网电商域名
+DOMAIN-SUFFIX,dangdang.cn # 当当网备用域名（新增）
+DOMAIN-SUFFIX,dangdangimg.com # 当当网图片资源域名（新增）
+
+# 9. 微店
+DOMAIN-SUFFIX,weidian.com # 微店电商域名
+DOMAIN-SUFFIX,weidian.cn # 微店备用域名（新增）
+DOMAIN-SUFFIX,weidianimg.com # 微店图片资源域名（新增）
+
+# 10. 中粮我买网
+DOMAIN-SUFFIX,womai.com # 中粮我买网域名
+DOMAIN-SUFFIX,womai.cn # 中粮我买网备用域名（新增）
+
+# 11. 服饰品牌电商
+DOMAIN-SUFFIX,abercrombie.com # Abercrombie服饰品牌域名
+DOMAIN-SUFFIX,hollisterco.com # Hollister服饰品牌域名（Abercrombie旗下）
+DOMAIN-SUFFIX,uniqlo.com.cn # 优衣库中国官网域名（新增）
+DOMAIN-SUFFIX,hm.com.cn # H&M中国官网域名（新增）
+DOMAIN-SUFFIX,gucci.com.cn # 古驰中国官网域名（新增）
+
+# 12. 导购/优惠平台
+DOMAIN-SUFFIX,smzdm.com # 什么值得买域名（优惠导购平台）
+DOMAIN-SUFFIX,manmanbuy.com # 慢慢买（比价平台）域名（新增）
+DOMAIN-SUFFIX,55haitao.com # 55海淘（跨境导购）域名（新增）
+DOMAIN-SUFFIX,taofen8.com # 淘粉吧（优惠导购）域名（新增）
+
+# 13. 生鲜电商（新增分类）
+DOMAIN-SUFFIX,meituanxuanpin.com # 美团优选域名（新增）
+DOMAIN-SUFFIX,duoduomaicai.com # 多多买菜域名（新增）
+DOMAIN-SUFFIX,jdfresh.com # 京东生鲜域名（新增）
+DOMAIN-SUFFIX,missfresh.cn # 每日优鲜域名（新增）
+
+# 14. 母婴电商（新增分类）
+DOMAIN-SUFFIX,miya.com # 蜜芽域名（新增）
+DOMAIN-SUFFIX,baobeihuijia.com # 宝宝惠家域名（新增）
+
+# 15. 跨境电商（新增分类）
+DOMAIN-SUFFIX,kaola.cn # 网易考拉备用域名（新增）
+DOMAIN-SUFFIX,shoppe.com # Shopee中国卖家域名（新增）
+DOMAIN-SUFFIX,lazada.com # Lazada中国卖家域名（新增）
+
+# 16. 本地生活电商（新增分类）
+DOMAIN-SUFFIX,ele.me # 饿了么外卖域名（新增）
+DOMAIN-SUFFIX,meituan.com # 美团外卖域名（新增）
+DOMAIN-SUFFIX,meituanwap.com # 美团外卖移动端域名（新增）
+DOMAIN-SUFFIX,baidu.waimai.com # 百度外卖（现已并入饿了么）域名（新增）
+
+
+####### 五、社交/社区平台类 #########
+
+# 1. 腾讯系社交
+DOMAIN-SUFFIX,qq.com # 腾讯QQ及主域名
+DOMAIN-SUFFIX,wechat.com # 微信相关服务域名
+DOMAIN-SUFFIX,weixin.com # 微信主域名
+DOMAIN-SUFFIX,servicewechat.com # 微信服务号相关域名
+DOMAIN-SUFFIX,qqmail.com # QQ邮箱主域名
+DOMAIN-SUFFIX,foxmail.com # 腾讯Foxmail邮箱域名
+DOMAIN-SUFFIX,qlogo.cn # QQ头像CDN域名
+DOMAIN-SUFFIX,qpic.cn # QQ图片CDN域名
+DOMAIN-SUFFIX,idqqimg.com # QQ头像及图片资源域名
+DOMAIN-SUFFIX,gtimg.com # 腾讯图片资源域名
+DOMAIN-SUFFIX,qqurl.com # 腾讯短链接服务域名
+DOMAIN-SUFFIX,soso.com # 腾讯搜搜域名（已停运，保留规则）
+DOMAIN-SUFFIX,weixin.qq.com # 微信网页版域名（新增）
+DOMAIN-SUFFIX,wx.qq.com # 微信相关服务域名（新增）
+DOMAIN-SUFFIX,qq.com.cn # QQ国内备用域名（新增）
+DOMAIN-SUFFIX,tenpay.com # 腾讯支付社交相关域名（新增）
+DOMAIN-SUFFIX,qqzone.com # QQ空间主域名（新增）
+DOMAIN-SUFFIX,qzone.qq.com # QQ空间访问域名（新增）
+
+# 2. 新浪系社交
+DOMAIN-SUFFIX,weibo.com # 新浪微博主域名
+DOMAIN-SUFFIX,weibo.cn # 新浪微博手机端域名
+DOMAIN-SUFFIX,weibocdn.com # 新浪微博CDN域名
+DOMAIN-SUFFIX,weibocdn.cn # 新浪微博CDN国内域名
+DOMAIN-SUFFIX,sina.com # 新浪主域名
+DOMAIN-SUFFIX,sina.com.cn # 新浪国内主域名
+DOMAIN-SUFFIX,sina.cn # 新浪手机端域名
+DOMAIN-SUFFIX,sinaapp.com # 新浪SAE应用平台域名
+DOMAIN-SUFFIX,sinaapp.cn # 新浪SAE国内域名
+DOMAIN-SUFFIX,sinaimg.com # 新浪图片资源域名
+DOMAIN-SUFFIX,sinaimg.cn # 新浪图片资源国内域名
+DOMAIN-SUFFIX,miaopai.com # 秒拍APP域名（新浪旗下，已停运）
+DOMAIN-SUFFIX,leju.com # 乐居房产域名（新浪旗下）
+DOMAIN-SUFFIX,xiaoka.tv # 新浪相关视频域名（已停运，保留规则）
+DOMAIN-SUFFIX,weibo.com.cn # 新浪微博备用域名（新增）
+DOMAIN-SUFFIX,sinajs.cn # 新浪JS资源域名（新增）
+DOMAIN-SUFFIX,wbimg.cn # 新浪微博图片CDN域名（新增）
+
+# 3. 知乎
+DOMAIN-SUFFIX,zhihu.com # 知乎社区主域名
+DOMAIN-SUFFIX,zhimg.com # 知乎图片资源域名
+DOMAIN-SUFFIX,zhihu.cn # 知乎国内备用域名（新增）
+DOMAIN-SUFFIX,zhihuimg.com # 知乎图片备用域名（新增）
+DOMAIN-SUFFIX,zhihuapp.com # 知乎APP相关域名（新增）
+
+# 4. 豆瓣
+DOMAIN-SUFFIX,douban.com # 豆瓣社区主域名
+DOMAIN-SUFFIX,doubanio.com # 豆瓣资源存储域名
+DOMAIN-SUFFIX,douban.cn # 豆瓣国内备用域名（新增）
+DOMAIN-SUFFIX,doubanimg.com # 豆瓣图片资源域名（新增）
+DOMAIN-SUFFIX,douban.fm # 豆瓣FM音频社区域名（新增）
+
+# 5. 小红书
+DOMAIN-SUFFIX,xhscdn.com # 小红书CDN域名
+DOMAIN-SUFFIX,xiaohongshu.cn # 小红书国内备用域名（新增）
+DOMAIN-SUFFIX,xhscdn.com # 小红书CDN备用域名（新增）
+DOMAIN-SUFFIX,xhsmobile.com # 小红书移动端域名（新增）
+
+# 6. 虎扑
+DOMAIN-SUFFIX,hupu.com # 虎扑体育社区域名
+DOMAIN-SUFFIX,huxiucdn.com # 虎扑CDN域名
+DOMAIN-SUFFIX,hupu.cn # 虎扑备用域名（新增）
+DOMAIN-SUFFIX,hupucdn.com # 虎扑CDN加速域名（新增）
+
+# 7. 贴吧/百度社区（含百度系）
+DOMAIN-SUFFIX,baidu.com # 百度搜索主域名
+DOMAIN-SUFFIX,baidubcr.com # 百度内容安全相关域名
+DOMAIN-SUFFIX,baidustatic.com # 百度静态资源域名
+DOMAIN-SUFFIX,bdimg.com # 百度图片资源域名
+DOMAIN-SUFFIX,bdstatic.com # 百度静态资源CDN域名
+DOMAIN-SUFFIX,bdurl.net # 百度短链接服务域名
+DOMAIN-SUFFIX,hao123.com # hao123导航网站域名
+DOMAIN-SUFFIX,hao123img.com # hao123导航图片资源域名
+DOMAIN-SUFFIX,jomodns.com # 百度DNS相关服务域名
+DOMAIN-SUFFIX,tieba.baidu.com # 百度贴吧主域名（新增）
+DOMAIN-SUFFIX,tiebaimg.com # 百度贴吧图片资源域名（新增）
+DOMAIN-SUFFIX,baidu.cn # 百度国内备用域名（新增）
+
+# 8. 少数派
+DOMAIN-SUFFIX,sspai.com # 少数派科技媒体域名
+DOMAIN-SUFFIX,sspai.cn # 少数派备用域名（新增）
+
+# 9. 思否
+DOMAIN-SUFFIX,segmentfault.com # 思否技术社区域名
+DOMAIN-SUFFIX,sf.gg # 思否备用域名（新增）
+
+# 10. 简书
+DOMAIN-SUFFIX,jianshu.com # 简书博客平台域名
+DOMAIN-SUFFIX,jianshu.io # 简书备用域名
+DOMAIN-SUFFIX,jianshuapi.com # 简书API服务域名
+DOMAIN-SUFFIX,jianshu.cn # 简书国内备用域名（新增）
+
+# 11. 博客园
+DOMAIN-SUFFIX,cnblogs.com # 博客园技术博客域名
+DOMAIN-SUFFIX,cnblogs.cn # 博客园备用域名（新增）
+DOMAIN-SUFFIX,cnblogsimg.com # 博客园图片资源域名（新增）
+
+# 12. 站长之家
+DOMAIN-SUFFIX,chinaz.com # 站长之家域名
+DOMAIN-SUFFIX,chinaz.net # 站长之家备用域名
+DOMAIN-SUFFIX,chinaz.cn # 站长之家备用域名（新增）
+
+# 13. 色影无忌
+DOMAIN-SUFFIX,xitek.com # 色影无忌摄影社区域名
+DOMAIN-SUFFIX,xitek.cn # 色影无忌备用域名（新增）
+
+# 14. 宝宝树
+DOMAIN-SUFFIX,babytree.com # 宝宝树母婴社区域名
+DOMAIN-SUFFIX,babytreeimg.com # 宝宝树图片资源域名
+DOMAIN-SUFFIX,babytree.cn # 宝宝树备用域名（新增）
+
+# 15. 下厨房
+DOMAIN-SUFFIX,xiachufang.com # 下厨房美食社区域名
+DOMAIN-SUFFIX,xiachufang.cn # 下厨房备用域名（新增）
+DOMAIN-SUFFIX,xcficdn.com # 下厨房CDN域名（新增）
+
+# 16. 雪球
+DOMAIN-SUFFIX,xueqiu.com # 雪球财经社区域名
+DOMAIN-SUFFIX,xueqiu.cn # 雪球备用域名（新增）
+DOMAIN-SUFFIX,xueqiucdn.com # 雪球CDN域名（新增）
+
+# 17. 铁血网
+DOMAIN-SUFFIX,tiexue.net # 铁血网域名
+DOMAIN-SUFFIX,tiexue.cn # 铁血网备用域名（新增）
+
+# 18. 天涯社区（相关）
+DOMAIN-SUFFIX,ewqcxz.com # 影视相关站点域名（含天涯相关资源）
+DOMAIN-SUFFIX,tianya.cn # 天涯社区主域名（新增）
+DOMAIN-SUFFIX,tianyaui.com # 天涯社区UI资源域名（新增）
+
+# 19. 威锋网（苹果资讯社区）
+DOMAIN-SUFFIX,weiphone.com # 威锋网苹果资讯域名
+DOMAIN-SUFFIX,weiphone.net # 威锋网备用域名
+DOMAIN-SUFFIX,weiphone.cn # 威锋网备用域名（新增）
+
+# 20. 微可（微博客户端相关）
+DOMAIN-SUFFIX,weico.cc # 微可微博客户端域名
+DOMAIN-SUFFIX,weico.com # 微可备用域名（新增）
+
+# 21. Linux技术社区
+DOMAIN-SUFFIX,linux.do # 国内Linux技术社区网站域名
+DOMAIN-SUFFIX,linux.cn # Linux中国社区域名（新增）
+
+# 22. 新奇产品分享社区
+DOMAIN-SUFFIX,knewone.com # 新奇产品分享域名
+
+# 23. 创意相关社区
+DOMAIN-SUFFIX,fresh-ideas.cc # 创意相关站点域名
+
+# 24. 抖音/快手社交社区（新增分类）
+DOMAIN-SUFFIX,douyin.com # 抖音社交主域名（已存在，补充分类）
+DOMAIN-SUFFIX,kuaishou.com # 快手社交主域名（新增）
+DOMAIN-SUFFIX,kwai.cn # 快手社交备用域名（新增）
+
+# 25. B站社区（新增分类）
+DOMAIN-SUFFIX,bilibili.com # B站社区主域名（已存在，补充分类）
+DOMAIN-SUFFIX,bilibili.cn # B站社区备用域名（新增）
+
+# 26. 脉脉（职场社交，新增分类）
+DOMAIN-SUFFIX,maimai.com # 脉脉主域名（新增）
+DOMAIN-SUFFIX,maimai.cn # 脉脉备用域名（新增）
+DOMAIN-SUFFIX,maimaicdn.com # 脉脉CDN域名（新增）
+
+# 27. 豆瓣小组（补充分类）
+DOMAIN-SUFFIX,www.douban.com/group # 豆瓣小组访问路径（新增）
+
+# 28. 知乎盐选（补充分类）
+DOMAIN-SUFFIX,salt.zhihu.com # 知乎盐选内容域名（新增）
+
+
+
+####### 六、搜索/导航平台类 #########
+
+# 1. 百度搜索
+DOMAIN-SUFFIX,baidu.com # 百度搜索主域名
+DOMAIN-SUFFIX,bdurl.net # 百度短链接服务域名
+DOMAIN-SUFFIX,baidu.cn # 百度国内备用域名（新增）
+DOMAIN-SUFFIX,baidu.com.cn # 百度搜索备用域名（新增）
+DOMAIN-SUFFIX,baiduimg.com # 百度搜索图片资源域名（新增）
+DOMAIN-SUFFIX,baidustatic.com # 百度静态资源域名（已存在，补充分类）
+DOMAIN-SUFFIX,bdstatic.com # 百度搜索CDN域名（已存在，补充分类）
+DOMAIN-SUFFIX,baiduapp.com # 百度APP相关域名（新增）
+DOMAIN-SUFFIX,baiduboxapp.com # 百度极速版APP域名（新增）
+
+# 2. 360搜索
+DOMAIN-SUFFIX,so.com # 360搜索主域名
+DOMAIN-SUFFIX,360.com # 360集团主域名（含搜索服务）
+DOMAIN-SUFFIX,360kuai.com # 360快资讯相关域名
+DOMAIN-SUFFIX,hao123.com # hao123导航网站域名（百度旗下，360导航竞争品）
+DOMAIN-SUFFIX,360.cn # 360集团备用域名（新增）
+DOMAIN-SUFFIX,360so.com # 360搜索备用域名（新增）
+DOMAIN-SUFFIX,360navi.com # 360安全导航主域名（新增）
+DOMAIN-SUFFIX,360browser.com # 360浏览器相关域名（新增）
+DOMAIN-SUFFIX,qhimg.com # 360搜索图片资源域名（已存在，补充分类）
+
+# 3. 搜狗搜索
+DOMAIN-SUFFIX,sogou.com # 搜狗主域名
+DOMAIN-SUFFIX,sogo.com # 搜狗搜索主域名
+DOMAIN-SUFFIX,sogoucdn.com # 搜狗CDN资源域名
+DOMAIN-SUFFIX,sogou.cn # 搜狗国内备用域名（新增）
+DOMAIN-SUFFIX,sogou.com.cn # 搜狗搜索备用域名（新增）
+DOMAIN-SUFFIX,sogouimg.com # 搜狗搜索图片资源域名（新增）
+DOMAIN-SUFFIX,sogouexplorer.com # 搜狗浏览器相关域名（新增）
+DOMAIN-SUFFIX,sogousearch.net # 搜狗搜索服务域名（新增）
+
+# 4. 搜狐搜索
+DOMAIN-SUFFIX,sohu.com # 搜狐主域名
+DOMAIN-SUFFIX,sohu-inc.com # 搜狐集团公司域名
+DOMAIN-SUFFIX,sohucs.com # 搜狐云服务域名
+DOMAIN-SUFFIX,sohuno.com # 搜狐相关服务域名
+DOMAIN-SUFFIX,sohurdc.com # 搜狐资源分发域名
+DOMAIN-SUFFIX,v-56.com # 搜狐视频相关域名
+DOMAIN-SUFFIX,go2map.com # 搜狐地图相关域名
+DOMAIN-SUFFIX,sohu.cn # 搜狐国内备用域名（新增）
+DOMAIN-SUFFIX,sohusearch.com # 搜狐搜索服务域名（新增）
+
+# 5. 易搜搜索
+DOMAIN-SUFFIX,easou.com # 易搜搜索域名
+DOMAIN-SUFFIX,easou.cn # 易搜备用域名（新增）
+
+# 6. 中国搜索
+DOMAIN-SUFFIX,chinaso.com # 中国搜索域名
+DOMAIN-SUFFIX,chinaso.cn # 中国搜索备用域名（新增）
+DOMAIN-SUFFIX,chinasosearch.net # 中国搜索服务域名（新增）
+
+# 7. 好搜搜索（现360搜索）
+DOMAIN-SUFFIX,haosou.com # 好搜搜索域名
+DOMAIN-SUFFIX,haosou.cn # 好搜备用域名（新增）
+
+# 8. 中搜搜索
+DOMAIN-SUFFIX,zhongsou.com # 中搜搜索域名
+DOMAIN-SUFFIX,zhongsou.cn # 中搜备用域名（新增）
+DOMAIN-SUFFIX,zhongsouso.com # 中搜搜索服务域名（新增）
+
+# 9. 必应搜索（国内版，新增分类）
+DOMAIN-SUFFIX,bing.com # 必应国际版主域名
+DOMAIN-SUFFIX,bing.com.cn # 必应中国版主域名（新增）
+DOMAIN-SUFFIX,cn.bing.com # 必应中国区访问域名（新增）
+DOMAIN-SUFFIX,bingimg.com # 必应图片资源域名（新增）
+
+# 10. 神马搜索（移动搜索，新增分类）
+DOMAIN-SUFFIX,sm.cn # 神马搜索主域名（新增）
+DOMAIN-SUFFIX,sogou.com # 搜狗搜索主域名（已存在，神马搜索由搜狗运营，补充分类）
+DOMAIN-SUFFIX,smimg.cn # 神马搜索图片资源域名（新增）
+
+# 11. 导航平台补充（新增分类）
+DOMAIN-SUFFIX,2345.com # 2345导航主域名（新增）
+DOMAIN-SUFFIX,2345.cn # 2345导航备用域名（新增）
+DOMAIN-SUFFIX,114la.com # 114啦导航主域名（新增）
+DOMAIN-SUFFIX,hao222.com # 好222导航主域名（新增）
+DOMAIN-SUFFIX,taobao.com # 淘宝导航入口（已存在，补充分类）
+
+# 12. 垂直搜索（新增分类）
+DOMAIN-SUFFIX,dianping.com # 大众点评本地生活搜索（已存在，补充分类）
+DOMAIN-SUFFIX,zhihu.com # 知乎知识搜索（已存在，补充分类）
+DOMAIN-SUFFIX,jd.com # 京东商品搜索（已存在，补充分类）
+DOMAIN-SUFFIX,map.baidu.com # 百度地图搜索（新增）
+DOMAIN-SUFFIX,amap.com # 高德地图搜索（已存在，补充分类）
+
+
+####### 七、音乐/音频平台类 #########
+
+# 1. 网易云音乐相关
+DOMAIN-SUFFIX,netease.com # 网易集团主域名（含网易云音乐）
+DOMAIN-SUFFIX,163.com # 163邮箱及网易主域名
+DOMAIN-SUFFIX,126.com # 126邮箱主域名
+DOMAIN-SUFFIX,126.net # 网易相关服务域名
+DOMAIN-SUFFIX,127.net # 网易资源存储域名
+DOMAIN-SUFFIX,163yun.com # 网易云服务域名
+DOMAIN-SUFFIX,ydstatic.com # 网易静态资源域名
+DOMAIN-SUFFIX,music.163.com # 网易云音乐主域名（新增）
+DOMAIN-SUFFIX,neteasemusic.com # 网易云音乐备用域名（新增）
+DOMAIN-SUFFIX,music.163cdn.com # 网易云音乐CDN域名（新增）
+DOMAIN-SUFFIX,nosdn.127.net # 网易云音乐资源存储域名（新增）
+DOMAIN-SUFFIX,musicapi.163.com # 网易云音乐API服务域名（新增）
+
+# 2. 腾讯音乐娱乐集团（TME，新增分类）
+# 2.1 QQ音乐
+DOMAIN-SUFFIX,qq.com # 腾讯主域名（含QQ音乐）
+DOMAIN-SUFFIX,y.qq.com # QQ音乐主域名（新增）
+DOMAIN-SUFFIX,qqmusic.com # QQ音乐备用域名（新增）
+DOMAIN-SUFFIX,qqmusic.qq.com # QQ音乐官网域名（新增）
+DOMAIN-SUFFIX,music.qq.com # QQ音乐备用访问域名（新增）
+DOMAIN-SUFFIX,qqmusiccdn.com # QQ音乐CDN加速域名（新增）
+# 2.2 酷狗音乐
+DOMAIN-SUFFIX,kugou.com # 酷狗音乐主域名
+DOMAIN-SUFFIX,koowo.com # 酷我音乐相关域名（已并入腾讯音乐）
+DOMAIN-SUFFIX,kugou.cn # 酷狗音乐国内备用域名（新增）
+DOMAIN-SUFFIX,kugoucdn.com # 酷狗音乐CDN域名（新增）
+DOMAIN-SUFFIX,kugouimg.com # 酷狗音乐图片资源域名（新增）
+# 2.3 酷我音乐
+DOMAIN-SUFFIX,koowo.com # 酷我音乐相关域名
+DOMAIN-SUFFIX,kuwo.cn # 酷我音乐主域名（新增）
+DOMAIN-SUFFIX,kuwo.com # 酷我音乐备用域名（新增）
+DOMAIN-SUFFIX,kuwocdn.com # 酷我音乐CDN加速域名（新增）
+
+# 3. 喜马拉雅
+DOMAIN-SUFFIX,ximalaya.com # 喜马拉雅主域名
+DOMAIN-SUFFIX,xmcdn.com # 喜马拉雅音频CDN域名
+DOMAIN-SUFFIX,ximalaya.cn # 喜马拉雅国内备用域名（新增）
+DOMAIN-SUFFIX,ximalayaapp.com # 喜马拉雅APP相关域名（新增）
+DOMAIN-SUFFIX,xmlycdn.com # 喜马拉雅CDN备用域名（新增）
+DOMAIN-SUFFIX,ximalaya.com.cn # 喜马拉雅备用官网域名（新增）
+
+# 4. 荔枝FM
+DOMAIN-SUFFIX,lizhi.fm # 荔枝FM音频域名
+DOMAIN-SUFFIX,lizhi.io # 荔枝FM备用域名
+DOMAIN-SUFFIX,lizhifm.com # 荔枝FM主域名
+DOMAIN-SUFFIX,lizhi.cn # 荔枝FM国内备用域名（新增）
+DOMAIN-SUFFIX,lizhicdn.com # 荔枝FM CDN域名（新增）
+
+# 5. 蜻蜓FM（新增分类）
+DOMAIN-SUFFIX,qingting.fm # 蜻蜓FM主域名（新增）
+DOMAIN-SUFFIX,qingting.cn # 蜻蜓FM国内备用域名（新增）
+DOMAIN-SUFFIX,qingtingcdn.com # 蜻蜓FM CDN加速域名（新增）
+
+# 6. 懒人听书（新增分类）
+DOMAIN-SUFFIX,lrts.me # 懒人听书主域名（新增）
+DOMAIN-SUFFIX,lrts.cn # 懒人听书国内备用域名（新增）
+DOMAIN-SUFFIX,lrtscdn.com # 懒人听书CDN域名（新增）
+
+# 7. 落网音乐
+DOMAIN-SUFFIX,luoo.net # 落网音乐域名
+DOMAIN-SUFFIX,luoo.cn # 落网音乐备用域名（新增）
+
+# 8. 千千音乐
+DOMAIN-SUFFIX,qianqian.com # 千千音乐域名
+DOMAIN-SUFFIX,qianqian.com.cn # 千千音乐备用域名（新增）
+DOMAIN-SUFFIX,qianqiancdn.com # 千千音乐CDN域名（新增）
+
+# 9. 太和音乐
+DOMAIN-SUFFIX,taihe.com # 太和音乐域名
+DOMAIN-SUFFIX,taihemusic.com # 太和音乐备用域名（新增）
+
+# 10. 咪咕音乐（新增分类）
+DOMAIN-SUFFIX,migu.cn # 咪咕音乐主域名（新增）
+DOMAIN-SUFFIX,miguvideo.com # 咪咕视频主域名（含咪咕音乐，已存在，补充分类）
+DOMAIN-SUFFIX,music.migu.cn # 咪咕音乐官网域名（新增）
+DOMAIN-SUFFIX,migumusic.com # 咪咕音乐备用域名（新增）
+DOMAIN-SUFFIX,migucdn.com # 咪咕音乐CDN加速域名（新增）
+
+# 11. 音悦台（已停运）
+DOMAIN-SUFFIX,yinyuetai.com # 音悦台域名（已停运，保留规则）
+
+# 12. 虾米音乐（已停运）
+DOMAIN-SUFFIX,xiami.com # 虾米音乐相关域名（已停运，保留规则）
+DOMAIN-SUFFIX,xiami.net # 虾米音乐相关域名（已停运，保留规则）
+
+# 13. 豆瓣FM（新增分类）
+DOMAIN-SUFFIX,douban.fm # 豆瓣FM主域名（新增）
+DOMAIN-SUFFIX,douban.com # 豆瓣主域名（含豆瓣FM，已存在，补充分类）
+DOMAIN-SUFFIX,doubanfm.com # 豆瓣FM备用域名（新增）
+
+# 14. 汽水音乐（字节跳动旗下，新增分类）
+DOMAIN-SUFFIX,qishuiyin.com # 汽水音乐主域名（新增）
+DOMAIN-SUFFIX,qishuiyin.cn # 汽水音乐国内备用域名（新增）
+DOMAIN-SUFFIX,bytedance.com # 字节跳动主域名（含汽水音乐，已存在，补充分类）
+
+
+####### 八、游戏相关平台类 #########
+
+# 1. 腾讯游戏（国内头部游戏厂商）
+DOMAIN-SUFFIX,igamecj.com # 腾讯游戏相关域名
+DOMAIN-SUFFIX,tencent.com # 腾讯集团主域名（含游戏业务）
+DOMAIN-SUFFIX,myapp.com # 腾讯应用宝域名（含游戏分发）
+DOMAIN-SUFFIX,qq.com # 腾讯主域名（含QQ游戏，新增）
+DOMAIN-SUFFIX,game.qq.com # 腾讯游戏官网主域名（新增）
+DOMAIN-SUFFIX,qqgame.com # QQ游戏平台主域名（新增）
+DOMAIN-SUFFIX,tgp.qq.com # 腾讯WeGame前身域名（新增）
+DOMAIN-SUFFIX,wegame.com # 腾讯WeGame游戏平台主域名（新增）
+DOMAIN-SUFFIX,wegame.qq.com # WeGame官网域名（新增）
+DOMAIN-SUFFIX,txgamecdn.com # 腾讯游戏CDN加速域名（新增）
+DOMAIN-SUFFIX,qt.qq.com # 腾讯QT语音（游戏语音）域名（新增）
+DOMAIN-SUFFIX,igame.qq.com # 腾讯爱玩游戏平台域名（新增）
+
+# 2. 网易游戏（国内头部游戏厂商）
+DOMAIN-SUFFIX,netease.com # 网易集团主域名（含游戏业务）
+DOMAIN-SUFFIX,163.com # 网易主域名（含游戏服务）
+DOMAIN-SUFFIX,game.163.com # 网易游戏官网主域名（新增）
+DOMAIN-SUFFIX,neteasegames.com # 网易游戏全球官网域名（新增）
+DOMAIN-SUFFIX,nie.163.com # 网易互动娱乐平台域名（新增）
+DOMAIN-SUFFIX,neteasegamecdn.com # 网易游戏CDN域名（新增）
+DOMAIN-SUFFIX,cc.163.com # 网易CC直播（游戏直播）域名（新增）
+
+# 3. B站游戏（二次元游戏核心平台）
+DOMAIN-SUFFIX,biligame.com # B站游戏平台域名
+DOMAIN-SUFFIX,biligame.net # B站游戏服务域名
+DOMAIN-SUFFIX,game.bilibili.com # B站游戏中心官网（新增）
+DOMAIN-SUFFIX,biligame.cn # B站游戏备用域名（新增）
+DOMAIN-SUFFIX,bgapi.bilibili.com # B站游戏API服务域名（新增）
+
+# 4. 米哈游（国内热门游戏厂商，新增分类）
+DOMAIN-SUFFIX,mihoyo.com # 米哈游集团主域名（新增）
+DOMAIN-SUFFIX,miHoYo.cn # 米哈游国内主域名（新增）
+DOMAIN-SUFFIX,hoyoverse.com # 米哈游海外品牌域名（新增）
+DOMAIN-SUFFIX,genshin.hoyoverse.com # 《原神》官网域名（新增）
+DOMAIN-SUFFIX,honkaiimpact3.hoyoverse.com # 《崩坏3》官网域名（新增）
+DOMAIN-SUFFIX,starrail.hoyoverse.com # 《崩坏：星穹铁道》官网域名（新增）
+DOMAIN-SUFFIX,mihoyo.com.cn # 米哈游国内备用域名（新增）
+
+# 5. 莉莉丝游戏（国内知名游戏厂商，新增分类）
+DOMAIN-SUFFIX,lilithgames.com # 莉莉丝游戏全球主域名（新增）
+DOMAIN-SUFFIX,lilithgames.cn # 莉莉丝游戏国内主域名（新增）
+DOMAIN-SUFFIX,lilith.com.cn # 莉莉丝游戏国内备用域名（新增）
+
+# 6. 完美世界游戏（国内老牌游戏厂商，新增分类）
+DOMAIN-SUFFIX,perfectworld.com # 完美世界集团主域名（新增）
+DOMAIN-SUFFIX,pwrd.com # 完美世界游戏相关域名（新增）
+DOMAIN-SUFFIX,game.pwrd.com # 完美世界游戏官网（新增）
+DOMAIN-SUFFIX,perfectworldgames.com # 完美世界游戏海外域名（新增）
+
+# 7. 游戏资讯/下载平台
+# 7.1 17173游戏网
+DOMAIN-SUFFIX,17173.com # 17173游戏资讯平台域名
+DOMAIN-SUFFIX,17173.cn # 17173国内备用域名（新增）
+DOMAIN-SUFFIX,17173img.com # 17173图片资源域名（新增）
+# 7.2 3DM游戏网
+DOMAIN-SUFFIX,3dmgame.com # 3DM游戏网域名
+DOMAIN-SUFFIX,3dmgame.cn # 3DM国内备用域名（新增）
+DOMAIN-SUFFIX,3dmimg.com # 3DM图片资源域名（新增）
+# 7.3 多玩游戏网
+DOMAIN-SUFFIX,duowan.com # 多玩游戏网域名
+DOMAIN-SUFFIX,duowan.cn # 多玩国内备用域名（新增）
+DOMAIN-SUFFIX,duowanimg.com # 多玩图片资源域名（新增）
+# 7.4 游民星空（新增）
+DOMAIN-SUFFIX,gamersky.com # 游民星空主域名（新增）
+DOMAIN-SUFFIX,gamersky.cn # 游民星空国内备用域名（新增）
+# 7.5 电玩巴士（新增）
+DOMAIN-SUFFIX,tgbus.com # 电玩巴士主域名（新增）
+DOMAIN-SUFFIX,tgbus.cn # 电玩巴士国内备用域名（新增）
+
+# 8. 主机/海外游戏平台（国内可用节点）
+# 8.1 索尼游戏（PlayStation）
+DOMAIN-SUFFIX,playstation.com # 索尼PS游戏平台主域名
+DOMAIN-SUFFIX,playstation.net # 索尼PS网络服务域名
+DOMAIN-SUFFIX,playstationnetwork.com # 索尼PSN服务域名
+DOMAIN-SUFFIX,sony.com # 索尼集团主域名
+DOMAIN-SUFFIX,sonyentertainmentnetwork.com # 索尼娱乐网络域名
+DOMAIN-SUFFIX,playstation.com.cn # 索尼PS中国官网域名（新增）
+# 8.2 微软Xbox（新增）
+DOMAIN-SUFFIX,xbox.com # Xbox全球主域名（新增）
+DOMAIN-SUFFIX,xbox.com.cn # Xbox中国官网域名（新增）
+# 8.3 任天堂（新增）
+DOMAIN-SUFFIX,nintendo.com # 任天堂全球主域名（新增）
+DOMAIN-SUFFIX,nintendo.com.cn # 任天堂中国官网域名（新增）
+
+# 9. 游戏直播/社区平台（补充）
+DOMAIN-SUFFIX,huya.com # 虎牙直播（游戏直播）域名（新增）
+DOMAIN-SUFFIX,douyu.com # 斗鱼直播（游戏直播）域名（新增）
+DOMAIN-SUFFIX,bilibili.com # B站（游戏直播/社区）域名（已存在，补充分类）
+DOMAIN-SUFFIX,zhanqi.tv # 战旗直播（游戏直播，已停运，保留规则，新增分类）
+
+# 10. 游戏分发平台（补充）
+DOMAIN-SUFFIX,4399.com # 4399小游戏平台主域名（新增）
+DOMAIN-SUFFIX,4399.cn # 4399国内备用域名（新增）
+DOMAIN-SUFFIX,7k7k.com # 7k7k小游戏平台主域名（新增）
+DOMAIN-SUFFIX,yy.com # YY游戏分发/直播域名（已存在，补充分类）
+
+
+
+####### 九、出行/旅游/本地生活类 #########
+
+# 1. 携程旅行
+DOMAIN-SUFFIX,ctrip.com # 携程旅行主域名
+DOMAIN-SUFFIX,c-ctrip.com # 携程旅行相关域名
+DOMAIN-SUFFIX,trip.com # 携程旅行备用主域名
+DOMAIN-SUFFIX,ctrip.cn # 携程国内备用域名（新增）
+DOMAIN-SUFFIX,ctripcdn.com # 携程CDN加速域名（新增）
+DOMAIN-SUFFIX,fliggy.com # 飞猪旅行（阿里旗下，新增）
+
+# 2. 去哪儿旅行
+DOMAIN-SUFFIX,qunar.com # 去哪儿旅行主域名
+DOMAIN-SUFFIX,qunarzz.com # 去哪儿旅行CDN域名
+DOMAIN-SUFFIX,qunar.cn # 去哪儿国内备用域名（新增）
+DOMAIN-SUFFIX,qunarimg.com # 去哪儿图片资源域名（新增）
+
+# 3. 途牛旅游
+DOMAIN-SUFFIX,tuniu.com # 途牛旅游主域名
+DOMAIN-SUFFIX,tuniucdn.com # 途牛旅游CDN域名
+DOMAIN-SUFFIX,tuniu.cn # 途牛国内备用域名（新增）
+
+# 4. 驴妈妈旅游
+DOMAIN-SUFFIX,lvmama.com # 驴妈妈旅游域名
+DOMAIN-SUFFIX,lvmama.cn # 驴妈妈备用域名（新增）
+
+# 5. 高德地图
+DOMAIN-SUFFIX,amap.com # 高德地图主域名
+DOMAIN-SUFFIX,autonavi.com # 高德导航相关服务域名
+DOMAIN-SUFFIX,amap.cn # 高德地图国内备用域名（新增）
+DOMAIN-SUFFIX,amapcdn.com # 高德地图CDN域名（新增）
+DOMAIN-SUFFIX,gaode.com # 高德地图备用主域名（新增）
+
+# 6. 百度地图（新增分类）
+DOMAIN-SUFFIX,map.baidu.com # 百度地图主域名（新增）
+DOMAIN-SUFFIX,baidu.com # 百度主域名（含地图服务，已存在，补充分类）
+DOMAIN-SUFFIX,baidumap.com # 百度地图备用域名（新增）
+DOMAIN-SUFFIX,map.baidu.cn # 百度地图国内备用域名（新增）
+
+# 7. 滴滴出行（小桔科技）
+DOMAIN-SUFFIX,xiaojukeji.com # 小桔科技（滴滴）域名
+DOMAIN-SUFFIX,didiglobal.com # 滴滴全球主域名（新增）
+DOMAIN-SUFFIX,didi.cn # 滴滴国内备用域名（新增）
+DOMAIN-SUFFIX,didicdn.com # 滴滴CDN加速域名（新增）
+
+# 8. 共享单车/出行补充
+DOMAIN-SUFFIX,mobike.com # 摩拜单车（已并入美团）
+DOMAIN-SUFFIX,ofo.so # ofo共享单车域名（新增）
+DOMAIN-SUFFIX,hellobike.com # 哈啰出行主域名（新增）
+DOMAIN-SUFFIX,hellobike.cn # 哈啰出行备用域名（新增）
+
+# 9. 大众点评（本地生活）
+DOMAIN-SUFFIX,dianping.com # 大众点评域名（本地生活服务）
+DOMAIN-SUFFIX,dianping.cn # 大众点评备用域名（新增）
+DOMAIN-SUFFIX,dpfile.com # 大众点评文件存储域名（已存在，补充分类）
+
+# 10. 美团本地生活（新增分类）
+DOMAIN-SUFFIX,meituan.com # 美团主域名（含外卖/到店）
+DOMAIN-SUFFIX,meituan.net # 美团备用域名
+DOMAIN-SUFFIX,meituan.cn # 美团国内备用域名（新增）
+DOMAIN-SUFFIX,meituancdn.com # 美团CDN加速域名（新增）
+DOMAIN-SUFFIX,ele.me # 饿了么外卖（阿里旗下，已存在，补充分类）
+
+# 11. 分类信息平台（本地生活）
+DOMAIN-SUFFIX,58.com # 58同城分类信息平台主域名
+DOMAIN-SUFFIX,ganji.com # 赶集网分类信息域名
+DOMAIN-SUFFIX,ganjistatic1.com # 赶集网静态资源域名
+DOMAIN-SUFFIX,58cn.com # 58同城备用域名（新增）
+DOMAIN-SUFFIX,58cdn.com # 58同城CDN域名（新增）
+
+# 12. 本地生活补充（新增分类）
+DOMAIN-SUFFIX,ele.me # 饿了么外卖主域名（已存在，补充分类）
+DOMAIN-SUFFIX,elecdn.com # 饿了么CDN域名（新增）
+DOMAIN-SUFFIX,baiduwaimai.com # 百度外卖（已并入饿了么，新增）
+DOMAIN-SUFFIX,meituanwaimai.com # 美团外卖专用域名（新增）
+
+
+####### 十、教育/学习平台类 #########
+
+# 1. 超星学习通
+DOMAIN-SUFFIX,chaoxing.com # 超星学习通域名
+DOMAIN-SUFFIX,chaoxing.cn # 超星备用域名（新增）
+DOMAIN-SUFFIX,icourse163.org # 中国大学MOOC（超星运营，新增）
+
+# 2. 中国知网
+DOMAIN-SUFFIX,cnki.net # 中国知网域名
+DOMAIN-SUFFIX,cnki.cn # 知网国内备用域名（新增）
+DOMAIN-SUFFIX,cnkizw.com # 知网查重相关域名（新增）
+
+# 3. 51CTO学院
+DOMAIN-SUFFIX,51cto.com # 51CTO技术社区域名
+DOMAIN-SUFFIX,51cto.cn # 51CTO备用域名（新增）
+
+# 4. 菜鸟教程
+DOMAIN-SUFFIX,runoob.com # 菜鸟教程域名
+DOMAIN-SUFFIX,runoob.cn # 菜鸟教程备用域名（新增）
+
+# 5. CSDN
+DOMAIN-SUFFIX,csdn.net # CSDN技术社区域名
+DOMAIN-SUFFIX,csdn.cn # CSDN备用域名（新增）
+DOMAIN-SUFFIX,csdnimg.cn # CSDN图片资源域名（新增）
+DOMAIN-SUFFIX,blog.csdn.net # CSDN博客平台域名（新增）
+
+# 6. 百词斩
+DOMAIN-SUFFIX,baicizhan.com # 百词斩背单词APP域名
+DOMAIN-SUFFIX,baicizhan.cn # 百词斩备用域名（新增）
+DOMAIN-SUFFIX,baicizhanimg.com # 百词斩图片资源域名（新增）
+
+# 7. 有道词典
+DOMAIN-SUFFIX,youdao.com # 有道词典主域名
+DOMAIN-SUFFIX,youdao.cn # 有道备用域名（新增）
+DOMAIN-SUFFIX,ydstatic.cn # 有道静态资源域名（新增）
+DOMAIN-SUFFIX,dict.youdao.com # 有道词典官网域名（新增）
+
+# 8. 福昕词典
+DOMAIN-SUFFIX,frdic.com # 福昕词典域名
+DOMAIN-SUFFIX,frdic.cn # 福昕词典备用域名（新增）
+
+# 9. 翻译平台补充（新增分类）
+DOMAIN-SUFFIX,godic.net # 谷歌翻译相关域名
+DOMAIN-SUFFIX,fanyi.baidu.com # 百度翻译主域名（新增）
+DOMAIN-SUFFIX,fanyi.qq.com # 腾讯翻译主域名（新增）
+DOMAIN-SUFFIX,translate.sogou.com # 搜狗翻译主域名（新增）
+
+# 10. 开源中国
+DOMAIN-SUFFIX,oschina.net # 开源中国社区域名
+DOMAIN-SUFFIX,oschina.cn # 开源中国备用域名（新增）
+
+# 11. 互动百科（知识教育）
+DOMAIN-SUFFIX,baike.com # 互动百科域名
+DOMAIN-SUFFIX,baike.cn # 互动百科备用域名（新增）
+
+# 12. 中国科学技术文献（学术资源）
+DOMAIN-SUFFIX,cnmstl.net # 中国科学技术文献域名
+DOMAIN-SUFFIX,cnmstl.cn # 中国科学技术文献备用域名（新增）
+
+# 13. 中小学教育平台（新增分类）
+DOMAIN-SUFFIX,100edu.com # 猿辅导主域名（新增）
+DOMAIN-SUFFIX,zuoyebang.com # 作业帮主域名（新增）
+DOMAIN-SUFFIX,zhihuishu.com # 智慧树教育平台域名（新增）
+DOMAIN-SUFFIX,qingcloud.com # 青书学堂域名（新增）
+
+# 14. 职业教育平台（新增分类）
+DOMAIN-SUFFIX,offcn.com # 中公教育主域名（新增）
+DOMAIN-SUFFIX,huatu.com # 华图教育主域名（新增）
+DOMAIN-SUFFIX,fenbi.com # 粉笔教育主域名（新增）
+DOMAIN-SUFFIX,fenbi.com # 粉笔教育备用域名（新增）
+
+# 15. 语言学习平台（新增分类）
+DOMAIN-SUFFIX,liulishuo.com # 流利说主域名（新增）
+DOMAIN-SUFFIX,hellotalk.com # HelloTalk语言交流域名（新增）
+DOMAIN-SUFFIX,hujiang.com # 沪江网校主域名（新增）
+
+
+
+####### 十一、工具/软件/开发者服务类 #########
+
+# 1. 开发工具相关
+DOMAIN-SUFFIX,element-plus.org # Element Plus组件库域名
+DOMAIN-SUFFIX,algocasts.io # 算法教学相关域名
+DOMAIN-SUFFIX,jiathis.com # 加网分享工具域名
+DOMAIN-SUFFIX,xip.io # 测试用域名
+DOMAIN-SUFFIX,clouddn.com # 七牛云存储早期域名（开发者常用）
+DOMAIN-SUFFIX,cloudxns.net # 云解析服务域名
+DOMAIN-SUFFIX,ipip.net # IPIP.NET IP查询域名
+DOMAIN-SUFFIX,startssl.com # StartSSL证书服务域名
+DOMAIN-SUFFIX,uxengine.net # 优信二手车相关域名（含技术服务）
+DOMAIN-SUFFIX,tianyaui.com # 天燕UI相关域名
+DOMAIN-SUFFIX,moke.com # 墨刻相关域名
+# 新增常用开发工具
+DOMAIN-SUFFIX,github.com # GitHub主域名（开发者必备，新增）
+DOMAIN-SUFFIX,gitee.com # 码云（国内代码托管，新增）
+DOMAIN-SUFFIX,gitee.cn # 码云国内备用域名（新增）
+DOMAIN-SUFFIX,npmjs.com # npm包管理平台（新增）
+DOMAIN-SUFFIX,npmjs.cn # npm国内镜像（新增）
+DOMAIN-SUFFIX,webpack.js.org # Webpack构建工具官网（新增）
+DOMAIN-SUFFIX,vitejs.dev # Vite构建工具官网（新增）
+DOMAIN-SUFFIX,nodejs.org # Node.js官网（新增）
+DOMAIN-SUFFIX,nodejs.cn # Node.js中文网（新增）
+
+# 2. 设计/排版工具
+DOMAIN-SUFFIX,xiumi.us # 秀米图文排版工具域名
+# 新增设计类高频工具
+DOMAIN-SUFFIX,figma.com # Figma设计工具（新增）
+DOMAIN-SUFFIX,figma.cn # Figma中国区域名（新增）
+DOMAIN-SUFFIX,pschina.cc # Photoshop中文资源站（新增）
+DOMAIN-SUFFIX,sketch.com # Sketch设计工具官网（新增）
+DOMAIN-SUFFIX,canva.com # 可画（在线设计，新增）
+DOMAIN-SUFFIX,canva.cn # 可画中国区域名（新增）
+DOMAIN-SUFFIX,picsart.com # PicsArt图片编辑（新增）
+
+# 3. 笔记工具
+DOMAIN-SUFFIX,mubu.com # 幕布笔记工具域名
+DOMAIN-SUFFIX,yinxiang.com # 印象笔记域名
+# 新增日常笔记工具
+DOMAIN-SUFFIX,notion.so # Notion笔记工具（新增）
+DOMAIN-SUFFIX,notion.cn # Notion中国区域名（新增）
+DOMAIN-SUFFIX,feishu.cn # 飞书文档（字节旗下，新增）
+DOMAIN-SUFFIX,wenxin.baidu.com # 文心一言（AI笔记/创作，新增）
+DOMAIN-SUFFIX,jinshuju.net # 金数据（表单笔记相关，新增）
+
+# 4. 图片工具/存储
+DOMAIN-SUFFIX,tietuku.com # 贴图库图片存储域名
+DOMAIN-SUFFIX,geilicdn.com # 给力CDN域名
+DOMAIN-SUFFIX,kanimg.com # 迅雷看看图片域名
+DOMAIN-SUFFIX,dpfile.com # 大众点评文件存储域名
+DOMAIN-SUFFIX,soufunimg.com # 搜房网图片资源域名
+DOMAIN-SUFFIX,meitudata.com # 美图数据存储域名
+DOMAIN-SUFFIX,meitustat.com # 美图数据统计域名
+DOMAIN-SUFFIX,che168.com # 汽车之家旗下che168域名（含图片服务）
+DOMAIN-SUFFIX,images-amazon.com # 亚马逊图片资源域名
+# 新增图片工具
+DOMAIN-SUFFIX,unsplash.com # Unsplash图片素材（新增）
+DOMAIN-SUFFIX,pixabay.com # Pixabay图片素材（新增）
+DOMAIN-SUFFIX,pexels.com # Pexels图片素材（新增）
+DOMAIN-SUFFIX,imgbb.com # 图片存储工具（新增）
+DOMAIN-SUFFIX,photopea.com # 在线PS工具（新增）
+DOMAIN-SUFFIX,remove.bg # 图片去背景工具（新增）
+
+# 5. 下载工具相关
+DOMAIN-SUFFIX,xunlei.com # 迅雷主域名
+DOMAIN-SUFFIX,sandai.net # 迅雷公司主域名
+DOMAIN-SUFFIX,thundercdn.com # 迅雷CDN加速域名
+DOMAIN-SUFFIX,00cdn.com # 迅雷CDN域名
+DOMAIN-SUFFIX,88cdn.com # 迅雷CDN备用域名
+DOMAIN-SUFFIX,p2cdn.com # 迅雷P2P加速CDN域名
+DOMAIN-SUFFIX,xslb.net # 迅雷CDN域名
+DOMAIN-SUFFIX,kankan.com # 迅雷看看视频域名
+# 新增下载工具
+DOMAIN-SUFFIX,idm.cc # IDM下载器官网（新增）
+DOMAIN-SUFFIX,freedownloadmanager.org # FDM下载器（新增）
+DOMAIN-SUFFIX,qbittorrent.org # qBittorrent下载工具（新增）
+DOMAIN-SUFFIX,utorrent.com # uTorrent下载工具（新增）
+
+# 6. 安全/验证码服务
+DOMAIN-SUFFIX,geetest.com # 极验验证码服务域名
+DOMAIN-SUFFIX,fengkongcloud.com # 风控云服务域名
+DOMAIN-SUFFIX,360safe.com # 360安全产品相关域名
+DOMAIN-SUFFIX,alisoft.com # 阿里软件相关服务域名（含安全）
+# 新增安全工具
+DOMAIN-SUFFIX,malcare.com # 网站安全防护（新增）
+DOMAIN-SUFFIX,sucuri.net # 网站安全检测（新增）
+DOMAIN-SUFFIX,virustotal.com # 病毒检测工具（新增）
+DOMAIN-SUFFIX,360.cn # 360安全中心（新增）
+DOMAIN-SUFFIX,tenpay.com # 腾讯安全支付相关（新增）
+
+# 7. 数据统计/监控
+DOMAIN-SUFFIX,mmstat.com # 阿里数据统计服务域名
+DOMAIN-SUFFIX,pstatp.com # 字节跳动数据统计域名
+DOMAIN-SUFFIX,umengcloud.com # 友盟云服务域名
+DOMAIN-SUFFIX,ibytedapm.com # 字节跳动APM监控域名
+# 新增数据工具
+DOMAIN-SUFFIX,baidu-analytics.com # 百度统计（新增）
+DOMAIN-SUFFIX,cnzz.com # 站长统计（新增）
+DOMAIN-SUFFIX,google-analytics.com # 谷歌分析（新增）
+DOMAIN-SUFFIX,prometheus.io # Prometheus监控工具（新增）
+DOMAIN-SUFFIX,grafana.com # Grafana可视化工具（新增）
+
+# 8. 应用分发
+DOMAIN-SUFFIX,fir.im # Fir.im应用分发域名
+DOMAIN-SUFFIX,myapp.com # 腾讯应用宝域名
+DOMAIN-SUFFIX,coolapk.com # 酷安应用市场域名
+DOMAIN-SUFFIX,coolapkmarket.com # 酷安市场备用域名
+DOMAIN-SUFFIX,wandoujia.com # 豌豆荚应用市场域名
+DOMAIN-SUFFIX,onlinedown.net # 华军软件园域名
+# 新增应用分发平台
+DOMAIN-SUFFIX,huaweiappmarket.com # 华为应用市场（新增）
+DOMAIN-SUFFIX,mi.com # 小米应用商店（已存在，补充分类）
+DOMAIN-SUFFIX,vivo.com # vivo应用商店（已存在，补充分类）
+DOMAIN-SUFFIX,oppo.com # OPPO应用商店（新增）
+DOMAIN-SUFFIX,apkpure.com # APK Pure应用下载（新增）
+DOMAIN-SUFFIX,softonic.com # 软件下载平台（新增）
+# 苹果应用商店（App Store）相关域名（新增）
+DOMAIN-SUFFIX,apple.com # 苹果官网（含App Store入口，新增）
+DOMAIN-SUFFIX,apple.com.cn # 苹果中国官网（含App Store入口，新增）
+DOMAIN-SUFFIX,apps.apple.com # App Store应用商店主域名（新增）
+DOMAIN-SUFFIX,itunes.apple.com # App Store历史访问域名（新增）
+DOMAIN-SUFFIX,apple-dns.cn # 苹果中国DNS服务（保障App Store访问，新增）
+
+# 9. 系统/硬件相关工具
+DOMAIN-SUFFIX,istoreos.com # iStoreOS路由器固件官方域名
+DOMAIN-SUFFIX,synology.com # 群晖（Synology）NAS官方域名
+DOMAIN-SUFFIX,netease.com # 网易集团主域名（含工具软件）
+DOMAIN-SUFFIX,ksosoft.com # 金山软件下载相关域名
+DOMAIN-SUFFIX,iciba.com # 金山词霸主域名
+DOMAIN-SUFFIX,nruan.com # 软媒相关域名
+# 新增系统工具
+DOMAIN-SUFFIX,windows.com # Windows官网（新增）
+DOMAIN-SUFFIX,ubuntu.com # Ubuntu系统官网（新增）
+DOMAIN-SUFFIX,centos.org # CentOS系统官网（新增）
+DOMAIN-SUFFIX,debian.org # Debian系统官网（新增）
+DOMAIN-SUFFIX,raspberrypi.org # 树莓派官网（新增）
+DOMAIN-SUFFIX,openwrt.org # OpenWRT路由器系统（新增）
+
+# 10. CDN相关工具
+DOMAIN-SUFFIX,simplecd.me # 简单CDN域名
+# 新增CDN服务
+DOMAIN-SUFFIX,cloudflare.com # Cloudflare CDN（新增）
+DOMAIN-SUFFIX,cloudflare-cdn.com # Cloudflare CDN资源（新增）
+DOMAIN-SUFFIX,fastly.com # Fastly CDN（新增）
+DOMAIN-SUFFIX,akamai.com # Akamai CDN（新增）
+
+# 11. 开发者工具
+DOMAIN-SUFFIX,qin.io # 秦相关工具域名
+# 新增开发者服务
+DOMAIN-SUFFIX,swagger.io # Swagger API文档工具（新增）
+DOMAIN-SUFFIX,postman.com # Postman接口测试工具（新增）
+DOMAIN-SUFFIX,jenkins.io # Jenkins自动化工具（新增）
+DOMAIN-SUFFIX,docker.com # Docker容器工具（新增）
+DOMAIN-SUFFIX,kubernetes.io # Kubernetes容器编排（新增）
+
+# 12. 日常工具软件（新增分类）
+DOMAIN-SUFFIX,qq.com # 腾讯QQ（日常通讯，已存在，补充分类）
+DOMAIN-SUFFIX,wechat.com # 微信（日常通讯，已存在，补充分类）
+DOMAIN-SUFFIX,foxmail.com # Foxmail邮箱（新增）
+DOMAIN-SUFFIX,winrar.com # WinRAR压缩工具（新增）
+DOMAIN-SUFFIX,bandisoft.com # Bandizip压缩工具（新增）
+DOMAIN-SUFFIX,7-zip.org # 7-Zip压缩工具（新增）
+DOMAIN-SUFFIX,teamviewer.com # TeamViewer远程工具（新增）
+DOMAIN-SUFFIX,anydesk.com # AnyDesk远程工具（新增）
+
+# 13. 办公效率工具（新增分类）
+DOMAIN-SUFFIX,office.com # 微软Office（新增）
+DOMAIN-SUFFIX,docs.qq.com # 腾讯文档（新增）
+DOMAIN-SUFFIX,sheets.qq.com # 腾讯表格（新增）
+DOMAIN-SUFFIX,dingtalk.com # 钉钉（办公协作，已存在，补充分类）
+DOMAIN-SUFFIX,feishu.cn # 飞书（办公协作，已存在，补充分类）
+DOMAIN-SUFFIX,wxwork.com # 企业微信（新增）
+
+# 14. 维修相关工具
+DOMAIN-SUFFIX,repaik.com # 维修相关域名
+
+# 15. 应用相关工具
+DOMAIN-SUFFIX,ruguoapp.com # 若果APP相关域名
+
+# 16. 360相关资源工具
+DOMAIN-SUFFIX,qhimg.com # 奇虎360图片资源域名
+DOMAIN-SUFFIX,qihucdn.com # 奇虎360CDN域名
+
+# 17. 美团静态资源工具
+DOMAIN-SUFFIX,msstatic.com # 美团静态资源域名
+
+# 18. 微视CDN工具
+DOMAIN-SUFFIX,wscdns.com # 微视CDN域名
+
+# 19. 网易备用资源
+DOMAIN-SUFFIX,cn163.net # 网易相关备用域名
+
+# 20. 乐视云相关工具
+DOMAIN-SUFFIX,lemicp.com # 乐视云相关域名
+
+
+
+####### 十二、金融/支付类 #########
+
+# 1. 支付宝（补充日常备用域名）
+DOMAIN-SUFFIX,alipay.com # 支付宝支付平台主域名
+DOMAIN-SUFFIX,alipayobjects.com # 支付宝资源对象存储域名
+DOMAIN-SUFFIX,alipay.cn # 支付宝国内备用域名（新增）
+DOMAIN-SUFFIX,alipay.com.cn # 支付宝国内官网备用域名（新增）
+
+# 2. 微信支付（补充日常备用域名）
+DOMAIN-SUFFIX,wechat.com # 微信相关服务域名（含支付）
+DOMAIN-SUFFIX,tenpay.com # 腾讯支付相关域名
+DOMAIN-SUFFIX,wxpay.cn # 微信支付国内备用域名（新增）
+DOMAIN-SUFFIX,tenpay.cn # 腾讯支付国内备用域名（新增）
+DOMAIN-SUFFIX,pay.weixin.qq.com # 微信支付官网域名（新增）
+
+# 3. 京东支付（补充日常备用域名）
+DOMAIN-SUFFIX,jdpay.com # 京东支付相关域名
+DOMAIN-SUFFIX,jdpay.cn # 京东支付国内备用域名（新增）
+
+# 4. 易宝支付（补充日常备用域名）
+DOMAIN-SUFFIX,yeepay.com # 易宝支付域名
+DOMAIN-SUFFIX,yeepay.cn # 易宝支付国内备用域名（新增）
+
+# 5. 第三方支付（补充日常高频平台）
+DOMAIN-SUFFIX,lianlianpay.com # 连连支付主域名（新增）
+DOMAIN-SUFFIX,lakala.com # 拉卡拉支付主域名（新增）
+DOMAIN-SUFFIX,99bill.com # 快钱支付主域名（新增）
+DOMAIN-SUFFIX,baifubao.com # 百度钱包支付域名（新增）
+
+# 6. 银行相关（补充日常常用银行）
+DOMAIN-SUFFIX,abchina.com # 中国农业银行官网域名
+DOMAIN-SUFFIX,ecitic.com # 中信银行官网域名
+DOMAIN-SUFFIX,th-sjy.com # 天弘基金相关域名
+DOMAIN-SUFFIX,icbc.com.cn # 中国工商银行官网域名（新增）
+DOMAIN-SUFFIX,boc.cn # 中国银行官网域名（新增）
+DOMAIN-SUFFIX,ccb.com # 中国建设银行官网域名（新增）
+DOMAIN-SUFFIX,psbc.com # 中国邮政储蓄银行官网域名（新增）
+DOMAIN-SUFFIX,cmbchina.com # 招商银行官网域名（新增）
+DOMAIN-SUFFIX,spdb.com.cn # 上海浦东发展银行官网域名（新增）
+DOMAIN-SUFFIX,cmbc.com.cn # 中国民生银行官网域名（新增）
+DOMAIN-SUFFIX,cib.com.cn # 兴业银行官网域名（新增）
+
+# 7. 基金/理财平台（日常理财常用）
+DOMAIN-SUFFIX,tiantianfund.com # 天天基金网主域名（新增）
+DOMAIN-SUFFIX,jjmmw.com # 蚂蚁基金官网域名（新增）
+DOMAIN-SUFFIX,fund123.cn # 基金买卖网主域名（新增）
+DOMAIN-SUFFIX,efunds.com.cn # 易方达基金官网域名（新增）
+
+# 8. 证券平台（日常炒股常用）
+DOMAIN-SUFFIX,htsc.com.cn # 华泰证券官网域名（新增）
+DOMAIN-SUFFIX,orientsec.com.cn # 东方证券官网域名（新增）
+DOMAIN-SUFFIX,gw.com.cn # 广发证券官网域名（新增）
+DOMAIN-SUFFIX,xyzq.com.cn # 兴业证券官网域名（新增）
+
+# 9. 财经资讯（补充日常常用平台）
+DOMAIN-SUFFIX,eastmoney.com # 东方财富网主域名
+DOMAIN-SUFFIX,dfcfw.com # 东方财富网相关域名
+DOMAIN-SUFFIX,xueqiu.com # 雪球财经社区域名
+DOMAIN-SUFFIX,hexun.com # 和讯财经主域名（新增）
+DOMAIN-SUFFIX,finance.sina.com.cn # 新浪财经主域名（新增）
+DOMAIN-SUFFIX,finance.qq.com # 腾讯财经主域名（新增）
+DOMAIN-SUFFIX,finance.163.com # 网易财经主域名（新增）
+
+# 10. 企业/征信查询（补充日常常用工具）
+DOMAIN-SUFFIX,tianyancha.com # 天眼查企业查询域名
+DOMAIN-SUFFIX,qichacha.com # 企查查企业查询主域名（新增）
+DOMAIN-SUFFIX,zhongdengwang.org.cn # 中国执行信息公开网（新增）
+DOMAIN-SUFFIX,pbccrc.org.cn # 中国人民银行征信中心（新增）
+
+
+# ==============================================
+# 十三、企业/办公服务类
+# ==============================================
+# 1. 钉钉
+DOMAIN-SUFFIX,dingtalk.com # 钉钉办公软件主域名
+DOMAIN-SUFFIX,yach.me # 钉钉相关服务域名
+
+# 2. 企业邮箱/域名服务
+DOMAIN-SUFFIX,hichina.com # 阿里万网域名服务域名
+DOMAIN-SUFFIX,mxhichina.com # 阿里企业邮箱相关域名
+
+# 3. 美团企业服务（含外卖）
+DOMAIN-SUFFIX,meituan.com # 美团主域名（含企业团餐）
+DOMAIN-SUFFIX,meituan.net # 美团备用域名
+DOMAIN-SUFFIX,sankuai.com # 美团旗下三快科技域名
+DOMAIN-SUFFIX,ele.me # 饿了么外卖平台主域名（阿里旗下，企业外卖）
+DOMAIN-SUFFIX,nuomi.com # 糯米网域名（已并入百度，含企业服务）
+
+# 4. 携程企业旅行
+DOMAIN-SUFFIX,ctrip.com # 携程旅行主域名（含企业差旅）
+
+
+####### 十四、硬件/手机厂商类 #########
+
+# 1. 苹果
+
+DOMAIN-SUFFIX,apple.com # 苹果全球主域名
+DOMAIN-SUFFIX,apple.com.cn # 苹果中国官网域名（新增）
+DOMAIN-SUFFIX,icloud.com # 苹果 iCloud 服务域名（新增）
+DOMAIN-SUFFIX,applestore.com.cn # 苹果中国商店域名（新增）
+
+
+
+# 2. 小米/红米
+DOMAIN-SUFFIX,mi.com # 小米主域名
+DOMAIN-SUFFIX,miui.com # MIUI系统相关域名
+DOMAIN-SUFFIX,xiaomi.com # 小米集团主域名
+DOMAIN-SUFFIX,xiaomi.net # 小米备用域名
+DOMAIN-SUFFIX,xiaomicp.com # 小米ICP备案相关域名
+DOMAIN-SUFFIX,mi-img.com # 小米图片资源域名
+DOMAIN-SUFFIX,duokan.com # 多看阅读域名（小米旗下）
+DOMAIN-SUFFIX,mi.cn # 小米国内备用域名（新增）
+DOMAIN-SUFFIX,redmi.com # 红米独立品牌域名（新增）
+DOMAIN-SUFFIX,redmi.cn # 红米国内备用域名（新增）
+
+# 3. 华为/荣耀
+DOMAIN-SUFFIX,huawei.com # 华为集团主域名
+DOMAIN-SUFFIX,hihonor.com # 荣耀手机相关服务域名
+DOMAIN-SUFFIX,huaweishop.net # 华为商城相关域名
+DOMAIN-SUFFIX,vmall.com # 华为商城主域名
+DOMAIN-SUFFIX,vmallres.com # 华为商城资源域名
+DOMAIN-SUFFIX,dbankcdn.com # 华为网盘CDN域名
+DOMAIN-SUFFIX,hwccpc.com # 华为消费者云服务域名
+DOMAIN-SUFFIX,huawei.cn # 华为国内备用域名（新增）
+DOMAIN-SUFFIX,honor.com # 荣耀品牌主域名（新增）
+DOMAIN-SUFFIX,honor.cn # 荣耀国内备用域名（新增）
+
+# 4. 魅族
+DOMAIN-SUFFIX,meizu.com # 魅族手机官网域名
+DOMAIN-SUFFIX,meizu.cn # 魅族国内备用域名（新增）
+
+# 5. 一加
+DOMAIN-SUFFIX,oneplus.com # 一加手机官网域名
+DOMAIN-SUFFIX,oneplus.cn # 一加国内备用域名（新增）
+
+# 6. realme
+DOMAIN-SUFFIX,realme.com # realme手机官网域名
+DOMAIN-SUFFIX,realme.cn # realme 国内备用域名（新增）
+
+# 7. vivo
+DOMAIN-SUFFIX,vivo.com # vivo手机官网域名
+
+# 8. 索尼
+DOMAIN-SUFFIX,sony.com # 索尼集团主域名（含手机/硬件）
+
+# 9. 美图（硬件/软件）
+DOMAIN-SUFFIX,meitu.com # 美图公司主域名（含美图手机/软件）
+DOMAIN-SUFFIX,meipai.com # 美拍APP相关域名（美图旗下，已停运）
+
+
+# ==============================================
+# 十五、新闻/资讯类
+# ==============================================
+# 1. 新华网
+DOMAIN-SUFFIX,xinhuanet.com # 新华网主域名
+
+# 2. 凤凰网
+DOMAIN-SUFFIX,ifeng.com # 凤凰网主域名
+DOMAIN-SUFFIX,ifengimg.com # 凤凰网图片资源域名
+DOMAIN-SUFFIX,feng.com # 凤凰网相关域名
+
+# 3. 东方网
+DOMAIN-SUFFIX,eastday.com # 东方网资讯域名
+
+# 4. 南方周末
+DOMAIN-SUFFIX,infzm.com # 南方周末域名
+
+# 5. 36氪
+DOMAIN-SUFFIX,36kr.com # 36氪科技资讯域名
+
+# 6. 好奇心日报
+DOMAIN-SUFFIX,qdaily.com # 好奇心日报域名
+
+# 7. 蓝点网
+DOMAIN-SUFFIX,landiannews.com # 蓝点网科技资讯域名
+
+# 8. IT之家
+DOMAIN-SUFFIX,ithome.com # IT之家科技资讯域名
+
+# 9. IT168
+DOMAIN-SUFFIX,it168.com # IT168科技资讯域名
+
+# 10. 178资讯
+DOMAIN-SUFFIX,178.com # 178游戏资讯域名
+
+# 11. 汽车之家相关
+DOMAIN-SUFFIX,bitauto.com # 汽车之家旗下BitAuto域名
+DOMAIN-SUFFIX,che168.com # 汽车之家旗下che168域名
+
+# 12. 科技评测资讯
+DOMAIN-SUFFIX,zealer.com # ZEALER科技评测域名
+
+
+# ==============================================
+# 十六、招聘/求职类
+# ==============================================
+# 1. 前程无忧
+DOMAIN-SUFFIX,51job.com # 前程无忧招聘域名
+DOMAIN-SUFFIX,51jobcdn.com # 前程无忧CDN域名
+
+# 2. 智联招聘
+DOMAIN-SUFFIX,zhaopin.com # 智联招聘主域名
+DOMAIN-SUFFIX,zhipin.com # 智联卓聘域名
+
+# 3. BOSS直聘
+DOMAIN-SUFFIX,bosszhipin.com # BOSS直聘招聘域名
+
+
+# ==============================================
+# 十七、小说/阅读类
+# ==============================================
+# 1. 起点中文网
+DOMAIN-SUFFIX,qidian.com # 起点中文网域名
+DOMAIN-SUFFIX,qdmm.com # 起点女生网域名
+
+# 2. 17K小说网
+DOMAIN-SUFFIX,17k.com # 17K小说网域名
+
+# 3. 红袖添香
+DOMAIN-SUFFIX,hongxiu.com # 红袖添香小说网域名
+
+# 4. 笔趣阁/笔趣读
+DOMAIN-SUFFIX,biquge.com # 笔趣阁小说网域名
+DOMAIN-SUFFIX,biqudu.com # 笔趣读小说网域名
+
+# 5. 书迷楼
+DOMAIN-SUFFIX,shumilou.net # 书迷楼小说网域名
+
+# 6. 爱下电子书
+DOMAIN-SUFFIX,ixdzs.com # 爱下电子书域名
+
+# 7. 阅文集团
+DOMAIN-SUFFIX,yuewen.com # 阅文集团主域名
+
+
+# ==============================================
+# 十八、医疗/健康类
+# ==============================================
+# 1. 丁香园
+DOMAIN-SUFFIX,dxycdn.com # 丁香园医疗CDN域名
+
+# 2. 空气检测服务
+DOMAIN-SUFFIX,air-matters.com # 空气检测相关域名
+DOMAIN-SUFFIX,air-matters.io # 空气检测相关域名
+
+
+# ==============================================
+# 十九、物流/快递类
+# ==============================================
+# 1. 顺丰速运
+DOMAIN-SUFFIX,sf-express.com # 顺丰速运官网域名
+
+# 2. 快递100
+DOMAIN-SUFFIX,kuaidi100.com # 快递100查询域名
+
+
+# ==============================================
+# 二十、基础网络服务类（系统/通用）
+# ==============================================
+# 1. 时间同步
+DOMAIN-SUFFIX,time.windows.com # Windows系统时间同步域名
+DOMAIN-SUFFIX,ntp.org # NTP时间服务相关域名
+
+# 2. DNS服务
+DOMAIN-SUFFIX,apple-dns.cn # 苹果中国DNS服务域名
+DOMAIN-SUFFIX,bytedns.net # 字节跳动DNS服务域名
+DOMAIN-SUFFIX,bytednsdoc.com # 字节跳动DNS文档域名
+DOMAIN-SUFFIX,jomodns.com # 百度DNS相关服务域名
+DOMAIN-SUFFIX,lxdns.com # 蓝汛DNS域名
+DOMAIN-SUFFIX,onedns.net # OneDNS服务域名
+
+# 3. 镜像站点关键字
+DOMAIN-KEYWORD,mirror # 包含"mirror"关键字的镜像站点域名（直连更稳定）
+
+# 4. 特定IP直连
+IP-CIDR,218.85.152.99/32,no-resolve # 特定IP直连（无需DNS解析）
+IP-CIDR,211.138.156.66/32,no-resolve # 特定IP直连（无需DNS解析）
+IP-CIDR,218.104.128.106/32,no-resolve # 特定IP直连（无需DNS解析）
+
+# 5. 天气服务
+DOMAIN-SUFFIX,moji.com # 墨迹天气域名
+DOMAIN-SUFFIX,tianqi.com # 天气网域名
+DOMAIN-SUFFIX,tianqistatic.com # 天气网静态资源域名
+DOMAIN-SUFFIX,weather.com # 天气频道域名
+
+# 6. 其他基础服务
+DOMAIN-SUFFIX,hao123.com # hao123导航网站域名（通用入口）
+DOMAIN-SUFFIX,chinaso.com # 中国搜索域名（通用搜索服务）
+
+
+# ==============================================
+# 二十一、运营商/公共服务类
+# ==============================================
+# 1. 中国移动服务
+DOMAIN-SUFFIX,10086.cn # 中国移动网上营业厅主域名（日常查话费、办业务）
+DOMAIN-SUFFIX,10086.com # 中国移动集团官网（业务介绍、服务指南）
+DOMAIN-SUFFIX,cmcc.com.cn # 中国移动集团主域名
+DOMAIN-SUFFIX,cmnet.com # 中国移动网络服务相关域名
+DOMAIN-SUFFIX,139.com # 中国移动 139 邮箱（日常通信常用）
+
+# 2. 中国联通服务
+DOMAIN-SUFFIX,10010.com # 中国联通网上营业厅主域名（原内容归属错误修正，此为联通核心域名）
+DOMAIN-SUFFIX,chinaunicom.com.cn # 中国联通集团主域名
+DOMAIN-SUFFIX,10010.net # 中国联通服务支撑域名
+DOMAIN-SUFFIX,wo.cn # 中国联通手机营业厅相关域名
+
+# 3. 中国电信服务
+DOMAIN-SUFFIX,10000.com.cn # 中国电信网上营业厅主域名（查账单、办宽带）
+DOMAIN-SUFFIX,chinatelecom.com.cn # 中国电信集团主域名
+DOMAIN-SUFFIX,189.cn # 中国电信 189 邮箱及移动服务域名
+DOMAIN-SUFFIX,ct10000.com # 中国电信客服支撑域名
+
+# 4. 政务服务
+DOMAIN-SUFFIX,gjzwfw.gov.cn # 国家政务服务平台（查社保、办证件通用）
+DOMAIN-SUFFIX,zwfw.moa.gov.cn # 农业农村部政务服务（涉农业务）
+DOMAIN-SUFFIX,ssoc.gov.cn # 国家移民管理局政务服务（出入境相关）
+
+# 5.交通出行
+DOMAIN-SUFFIX,122.gov.cn # 公安部交管 12123 平台（查违章、办年检）
+DOMAIN-SUFFIX,jtfw.mot.gov.cn # 交通运输部服务平台（路况、客运查询）
+DOMAIN-SUFFIX,ems.com.cn # 邮政 EMS 快递查询（日常寄递查询常用）
+
+# 5.民生服务
+DOMAIN-SUFFIX,si.12333.gov.cn # 国家社保公共服务平台（社保查询、缴费）
+DOMAIN-SUFFIX,gjj.gov.cn # 全国住房公积金查询平台（通用入口）
+DOMAIN-SUFFIX,12320.gov.cn # 国家卫生健康委 12320 平台（医疗咨询、投诉）
+
+# ==============================================
+# 二十二、GitHub相关（加速/镜像）
+# ==============================================
+# DOMAIN-SUFFIX,ri.newn.us.kg # GitHub相关域名（注释未启用）
+DOMAIN-SUFFIX,git.886.be # GitHub加速镜像域名
+DOMAIN-SUFFIX,dzzmc.top # GitHub相关加速域名

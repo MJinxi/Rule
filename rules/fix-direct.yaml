@@ -1,0 +1,62 @@
+# NAME: fix-direct
+# AUTHOR: MJinxi
+# REPO: https://github.com/MJinxi/Rule
+# 直连修正列表，来自谨兮个人收集
+
+payload:
+  # DST-PORT（端口直连，对应网络服务）
+  - DST-PORT,123 # NTP网络时间协议端口，用于设备时间同步
+
+  # DOMAIN（精确域名直连）
+  - DOMAIN,gst.prod.dl.playstation.net # 索尼PlayStation官方下载服务器，用于游戏更新/DLC下载
+  - DOMAIN,linux.do # 国内Linux技术社区网站，提供教程与资源分享
+  - DOMAIN,ottsdk.itv.video # 爱奇艺视频服务SDK依赖域名，保障视频正常播放
+  - DOMAIN,mihomos.us.kg # 米哈游海外版游戏相关服务域名，适配游戏访问需求
+
+  # DOMAIN-SUFFIX（域名后缀直连，覆盖所有子站）
+  - DOMAIN-SUFFIX,alice.ws # 轻量技术工具/API服务相关域名
+  - DOMAIN-SUFFIX,apple-dns.cn # 苹果中国DNS服务域名，提升苹果设备域名解析速度
+  - DOMAIN-SUFFIX,archive.org # 互联网档案馆（Internet Archive），全球数字档案库
+  - DOMAIN-SUFFIX,coverartarchive.org # 音乐封面开源数据库，适配音乐播放器封面匹配
+  - DOMAIN-SUFFIX,cocopilot.org # 开源工具/AI辅助相关服务域名
+  - DOMAIN-SUFFIX,czzyvideo.com # 国内视频资源相关域名，保障视频访问流畅
+  - DOMAIN-SUFFIX,ghp.ci # GitHub Pages国内加速服务域名，提升静态网站访问速度
+  - DOMAIN-SUFFIX,icloud.com.cn # 苹果iCloud中国区服务域名，保障云存储同步
+  - DOMAIN-SUFFIX,iqiyis.com # 爱奇艺相关服务域名，保障视频播放不卡顿
+  - DOMAIN-SUFFIX,istoreos.com # iStoreOS路由器固件官方域名，用于固件下载与插件更新
+  - DOMAIN-SUFFIX,kelee.one # 个人技术博主/开发者相关服务域名
+  - DOMAIN-SUFFIX,mihomos.us.kg # 米哈游游戏相关服务后缀，覆盖子站访问需求
+  - DOMAIN-SUFFIX,musicbrainz.org # 音乐元数据开源数据库，提供音乐信息匹配
+  - DOMAIN-SUFFIX,ntp.org # NTP时间服务相关域名，辅助设备时间校准
+  - DOMAIN-SUFFIX,oaifree.com # 办公/工具类相关服务域名
+  - DOMAIN-SUFFIX,quickconnect.to # 群晖NAS QuickConnect远程访问服务域名
+  - DOMAIN-SUFFIX,speedtest.cn # 国内网速测试服务域名，用于网络测速
+  - DOMAIN-SUFFIX,steamcontent.com # Steam游戏内容下载服务器域名，提升游戏下载速度
+  - DOMAIN-SUFFIX,synology.com # 群晖（Synology）官方域名，用于设备管理与固件下载
+  - DOMAIN-SUFFIX,cloudstudio.work # 腾讯云Cloud Studio在线编程平台域名
+  - DOMAIN-SUFFIX,follow.is # 轻量社交/工具类相关服务域名
+  - DOMAIN-SUFFIX,ngrok-free.app # Ngrok免费版内网穿透服务域名
+  - DOMAIN-SUFFIX,gradio.live # Gradio在线AI演示平台域名，用于访问AI应用 demo
+  - DOMAIN-SUFFIX,vscode-cdn.net # VS Code在线版CDN服务域名，保障在线编程工具加载
+  - DOMAIN-SUFFIX,openrouter.ai # OpenRouter AI路由服务域名，用于访问各类AI模型
+
+  # PROCESS-NAME（进程直连，对应应用程序）
+  - PROCESS-NAME,aria2c # Aria2下载工具进程，下载请求直连
+  - PROCESS-NAME,CloudflareWARP # Cloudflare WARP代理进程
+  - PROCESS-NAME,DownloadService # 系统下载服务进程
+  - PROCESS-NAME,fdm # Free Download Manager下载工具进程
+  - PROCESS-NAME,Folx # Mac平台下载工具进程
+  - PROCESS-NAME,naive # NaiveProxy代理进程
+  - PROCESS-NAME,NetTransport # 网络传送带下载工具进程
+  - PROCESS-NAME,p4pclient # P4P下载加速进程
+  - PROCESS-NAME,privoxy # Privoxy代理进程
+  - PROCESS-NAME,qbittorrent # qBittorrent BT下载工具进程
+  - PROCESS-NAME,Surge # Surge代理工具进程
+  - PROCESS-NAME,Thunder # 迅雷下载工具进程
+  - PROCESS-NAME,trojan # Trojan代理进程
+  - PROCESS-NAME,trojan-go # Trojan-Go代理进程
+  - PROCESS-NAME,Transmission # Transmission BT下载工具进程
+  - PROCESS-NAME,uTorrent # uTorrent BT下载工具进程
+  - PROCESS-NAME,v2ray # V2Ray代理进程
+  - PROCESS-NAME,WebTorrent # WebTorrent在线下载工具进程
+  - PROCESS-NAME,zerotier-one # ZeroTier内网穿透工具进程

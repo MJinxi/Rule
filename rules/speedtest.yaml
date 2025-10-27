@@ -1,0 +1,11 @@
+# NAME: Speedtest
+# AUTHOR: MJinxi
+# REPO:  https://github.com/MJinxi/Rule
+# 速度测试列表，来自谨兮个人收集
+
+payload:
+  - DOMAIN-SUFFIX,fast.com
+  - DOMAIN-SUFFIX,ooklaserver.net
+  - DOMAIN-SUFFIX,speed.cloudflare.com
+  - DOMAIN-SUFFIX,speed.dler.io
+  - DOMAIN-KEYWORD,speedtest
