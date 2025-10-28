@@ -1,3 +1,9 @@
-# 忽略系统自动生成的文件（如macOS的.DS_Store）
 .DS_Store
 **/.DS_Store
+Thumbs.db
+db.json
+*.log
+node_modules/
+public/
+.deploy*/
+_multiconfig.yml

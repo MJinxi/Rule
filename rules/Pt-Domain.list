@@ -3,6 +3,10 @@
 # REPO: https://github.com/MJinxi/Rule
 # 站点策略组列表
 
+# 1001.药丸
+# DOMAIN-SUFFIX,invites.fun
+# 1002.蜂巢(已走代理)
+# DOMAIN-SUFFIX,pting.club
 
 # 1.馒头(已走代理)
 # DOMAIN,api.m-team.cc
@@ -35,10 +39,8 @@ DOMAIN,ptchdbits.co
 DOMAIN,gd.chddiy.xyz
 DOMAIN,chdbits.co
 DOMAIN,chdbits.xyz
-
 # 13.幼儿园
 DOMAIN,u2.dmhy.org
-
 # 14.莫妮卡
 DOMAIN,monikadesign.uk
 # 15.星陨阁
@@ -134,3 +136,5 @@ DOMAIN,carpt.net
 # DOMAIN-SUFFIX,pt.btschool.club
 # 55.海胆
 DOMAIN,www.haidan.video
+# 56.吐鲁番(站点和种子同地址)
+# DOMAIN-SUFFIX,eastgame.org
