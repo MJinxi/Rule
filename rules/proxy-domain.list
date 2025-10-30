@@ -62,3 +62,6 @@ DOMAIN,cyanbug.net
 
 # 9KG
 DOMAIN,haijiao.com
+
+# OPENWRT
+DOMAIN-SUFFIX,openwrt.ai
