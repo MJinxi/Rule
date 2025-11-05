@@ -391,6 +391,7 @@ DOMAIN-SUFFIX,yangkeduo.com  # 拼多多旗下多多买菜相关域名
 DOMAIN-SUFFIX,pinduoduo.cn   # 拼多多国内备用域名（新增）
 DOMAIN-SUFFIX,duoduocdn.com  # 拼多多CDN加速域名（新增）
 DOMAIN-SUFFIX,duoduomall.com # 多多商城相关域名（新增）
+DOMAIN,114.110.96.26  # 拼多多商家版
 
 
 # 4. 唯品会
