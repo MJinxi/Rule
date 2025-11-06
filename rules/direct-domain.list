@@ -385,30 +385,29 @@ DOMAIN-SUFFIX,jdmall.com # 京东商城备用域名（新增）
 DOMAIN-SUFFIX,jdhealth.com # 京东健康域名（新增）
 
 # 3. 拼多多
-DOMAIN-SUFFIX,pinduoduo.com  # 拼多多主域名
-DOMAIN-SUFFIX,pddpic.com     # 拼多多商家版
-DOMAIN-SUFFIX,yangkeduo.com  # 拼多多旗下多多买菜相关域名
-DOMAIN-SUFFIX,pinduoduo.cn   # 拼多多国内备用域名（新增）
-DOMAIN-SUFFIX,duoduocdn.com  # 拼多多CDN加速域名（新增）
-DOMAIN-SUFFIX,duoduomall.com # 多多商城相关域名（新增）
-DOMAIN,114.110.96.26  # 拼多多商家版
-
+DOMAIN-SUFFIX,pinduoduo.com             # 拼多多主域名
+DOMAIN-SUFFIX,pddpic.com                # 拼多多商家版
+DOMAIN-SUFFIX,yangkeduo.com             # 拼多多旗下多多买菜相关域名
+DOMAIN-SUFFIX,pinduoduo.cn              # 拼多多国内备用域名（新增）
+DOMAIN-SUFFIX,duoduocdn.com             # 拼多多CDN加速域名（新增）
+DOMAIN-SUFFIX,duoduomall.com            # 多多商城相关域名（新增）
+- IP-CIDR,110.41.171.181/32,no-resolve  # 拼多多商家版IP
 
 # 4. 唯品会
-DOMAIN-SUFFIX,vip.com # 唯品会主域名
-DOMAIN-SUFFIX,appsimg.com # 唯品会图片资源域名
+DOMAIN-SUFFIX,vip.com        # 唯品会主域名
+DOMAIN-SUFFIX,appsimg.com    # 唯品会图片资源域名
 DOMAIN-SUFFIX,appvipshop.com # 唯品会APP相关域名
-DOMAIN-SUFFIX,vipstatic.com # 唯品会静态资源域名
-DOMAIN-SUFFIX,vip.cn # 唯品会国内备用域名（新增）
-DOMAIN-SUFFIX,vipcdn.com # 唯品会CDN加速域名（新增）
+DOMAIN-SUFFIX,vipstatic.com  # 唯品会静态资源域名
+DOMAIN-SUFFIX,vip.cn         # 唯品会国内备用域名（新增）
+DOMAIN-SUFFIX,vipcdn.com     # 唯品会CDN加速域名（新增）
 
 # 5. 苏宁系电商
-DOMAIN-SUFFIX,suning.com # 苏宁易购主域名
-DOMAIN-SUFFIX,snwx.com # 苏宁文学相关域名
-DOMAIN-SUFFIX,suning.cn # 苏宁易购国内备用域名（新增）
-DOMAIN-SUFFIX,suningcdn.com # 苏宁CDN加速域名（新增）
+DOMAIN-SUFFIX,suning.com     # 苏宁易购主域名
+DOMAIN-SUFFIX,snwx.com       # 苏宁文学相关域名
+DOMAIN-SUFFIX,suning.cn      # 苏宁易购国内备用域名（新增）
+DOMAIN-SUFFIX,suningcdn.com  # 苏宁CDN加速域名（新增）
 DOMAIN-SUFFIX,suningmall.com # 苏宁商城域名（新增）
-DOMAIN-SUFFIX,redbaby.com # 红孩子（苏宁旗下母婴）域名（新增）
+DOMAIN-SUFFIX,redbaby.com    # 红孩子（苏宁旗下母婴）域名（新增）
 
 # 6. 蘑菇街/美丽说
 DOMAIN-SUFFIX,mogu.com # 蘑菇街电商主域名
