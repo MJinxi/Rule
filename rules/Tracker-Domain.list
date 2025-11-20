@@ -147,3 +147,5 @@ DOMAIN-SUFFIX,eastgame.org
 # 57.梓喵
 DOMAIN-SUFFIX,tracker.azusa.wiki
 DOMAIN-SUFFIX,zimiao.icu
+# 58.猪猪 和web一致 web2个域名走web
+#DOMAIN-SUFFIX,piggo.me
