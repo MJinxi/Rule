@@ -1,7 +1,0 @@
-# NAME: Claude
-# AUTHOR: YYDS666
-# UPDATED: 2025-12-03 02:23:01
-# TOTAL: 3
-+.anthropic.com
-+.claude.ai
-cdn.usefathom.com
