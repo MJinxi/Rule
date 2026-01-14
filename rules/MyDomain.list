@@ -55,3 +55,4 @@ DOMAIN-SUFFIX,netcup-status.de
 DOMAIN-SUFFIX,servercontrolpanel.de
 # IP 直连规则
 IP-CIDR,47.92.114.231/32,DIRECT
+IP-CIDR,23.224.69.28/32,DIRECT
