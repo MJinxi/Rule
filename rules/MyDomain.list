@@ -72,13 +72,3 @@ DOMAIN-SUFFIX,ugreen.cn
 DOMAIN-SUFFIX,ugnas.com
 DOMAIN-SUFFIX,ug.link
 DOMAIN-SUFFIX,ugreengroup.com
-# 虎牙直播主域名
-- DOMAIN-SUFFIX,huya.com
-- DOMAIN-SUFFIX,msstatic.com
-- DOMAIN-SUFFIX,huyagame.cn
-- DOMAIN-SUFFIX,duowan.com
-
-
-# 虎牙 CDN 与静态资源
-- DOMAIN-KEYWORD,huya
-- DOMAIN-SUFFIX,huya.com.cn
