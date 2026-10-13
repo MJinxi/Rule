@@ -72,3 +72,10 @@ DOMAIN-SUFFIX,ugreen.cn
 DOMAIN-SUFFIX,ugnas.com
 DOMAIN-SUFFIX,ug.link
 DOMAIN-SUFFIX,ugreengroup.com
+# UU远程专属核心域名
+DOMAIN-SUFFIX,uuyc.163.com,DIRECT
+DOMAIN-SUFFIX,uuyc.com,DIRECT
+DOMAIN-SUFFIX,mofang.163.com,DIRECT
+# 网易UU基础服务及通行证（确保账号登录、设备同步与打洞穿透正常）
+DOMAIN-SUFFIX,uu.163.com,DIRECT
+DOMAIN-SUFFIX,uu.netease.com,DIRECT
